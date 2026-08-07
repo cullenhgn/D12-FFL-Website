@@ -1,0 +1,108 @@
+:root {
+  --bg: #0f1420;
+  --panel: #171e2e;
+  --text: #e8ebf2;
+  --muted: #9aa4b8;
+  --accent: #ff7a1a;
+  --border: #262f45;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.55;
+}
+
+.wrap {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  padding: 18px 0;
+}
+.site-header .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.site-title {
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: var(--text);
+}
+.site-nav a {
+  margin-left: 18px;
+  color: var(--muted);
+  font-weight: 600;
+}
+.site-nav a:hover { color: var(--accent); }
+
+main { padding: 40px 0 60px; min-height: 60vh; }
+
+h1, h2, h3 { color: var(--text); }
+
+.post-list { list-style: none; padding: 0; }
+.post-list li {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border);
+}
+.post-date { color: var(--muted); font-size: 0.9rem; margin-right: 10px; }
+
+.trade-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px 18px;
+  margin-bottom: 16px;
+}
+.trade-header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+.trade-teams {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.trade-side h3 { margin: 0 0 6px; font-size: 1rem; }
+.trade-side ul { margin: 0; padding-left: 18px; }
+.trade-notes { color: var(--muted); margin: 10px 0 0; font-style: italic; }
+.trade-pending .trade-status { color: var(--accent); }
+
+.records-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+.records-table td {
+  padding: 10px 8px;
+  border-bottom: 1px solid var(--border);
+}
+.record-season { color: var(--muted); font-size: 0.85rem; margin-left: 6px; }
+.record-value { text-align: right; font-weight: 700; color: var(--accent); white-space: nowrap; }
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 20px 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 600px) {
+  .trade-teams { grid-template-columns: 1fr; }
+}

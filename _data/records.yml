@@ -1,0 +1,46 @@
+# League record book. Add/edit entries as history is made.
+# category groups records into sections on the records page.
+
+- category: "Championships"
+  records:
+    - season: 2025
+      holder: "Owner Name (Team Nickname)"
+      detail: "League Champion"
+    - season: 2024
+      holder: "Owner Name (Team Nickname)"
+      detail: "League Champion"
+
+- category: "Single-Season Records"
+  records:
+    - title: "Most Points in a Season"
+      holder: "Owner Name (Team Nickname)"
+      value: "1,842.6 pts"
+      season: 2024
+    - title: "Fewest Points in a Season"
+      holder: "Owner Name (Team Nickname)"
+      value: "1,190.2 pts"
+      season: 2022
+
+- category: "Single-Week Records"
+  records:
+    - title: "Highest Single-Week Score"
+      holder: "Owner Name (Team Nickname)"
+      value: "212.4 pts"
+      season: 2023
+      week: 6
+    - title: "Lowest Single-Week Score"
+      holder: "Owner Name (Team Nickname)"
+      value: "48.1 pts"
+      season: 2021
+      week: 3
+
+- category: "Draft & Keeper Records"
+  records:
+    - title: "Best Value Keeper"
+      holder: "Owner Name (Team Nickname)"
+      detail: "Kept a late-round pick who became a top-5 finisher"
+      season: 2024
+
+# Add new categories/records following this structure. "records" items can
+# have whatever fields make sense for that category — the layout will render
+# whichever keys are present.

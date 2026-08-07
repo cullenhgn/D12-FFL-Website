@@ -1,0 +1,26 @@
+# Log every draft-pick trade here. ESPN doesn't track future-pick trades,
+# so this file is the source of truth for the league.
+#
+# Fields:
+#   date        - when the trade happened (YYYY-MM-DD)
+#   teams       - the two (or more) team ids involved, from teams.yml
+#   sends       - what each team gave up, keyed by team id
+#   notes       - optional context (e.g. "part of 3-team deal", conditional pick, etc.)
+#   status      - completed | pending | voided
+#
+# Example trade: Team A trades their 2027 2nd-round pick to Team B for
+# Team B's 2026 1st-round pick plus a bench player.
+
+- date: 2026-08-01
+  status: completed
+  teams: [team-a, team-b]
+  sends:
+    team-a:
+      - "2027 2nd Round Pick"
+    team-b:
+      - "2026 1st Round Pick"
+      - "Bench Player Name"
+  notes: "Straight up pick swap ahead of the 2026 draft."
+
+# Copy the block above for each new trade. Keep them in chronological order
+# (oldest first) — the trades page will handle sorting/display.

@@ -1,0 +1,15 @@
+# One entry per franchise/owner in the league.
+# "id" should be a short, stable slug you reuse in trades.yml and records.yml.
+- id: team-a
+  owner: "Owner Name"
+  team_name: "Team Nickname"
+  joined: 2015
+  logo: "" # optional path under /assets/img/, e.g. "/assets/img/team-a.png"
+
+- id: team-b
+  owner: "Owner Name"
+  team_name: "Team Nickname"
+  joined: 2015
+  logo: ""
+
+# Add the rest of your teams below, following the same pattern.

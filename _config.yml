@@ -1,0 +1,31 @@
+title: The League HQ
+description: >-
+  Home of our fantasy football keeper league — draft pick trades,
+  historical records, and league news.
+baseurl: "" # sub-path if you use username.github.io/reponame, e.g. "/ff-league-site"
+url: "" # your full site URL once live, e.g. "https://yourusername.github.io"
+
+# League info — edit these
+league_name: "The League"
+league_founded: 2015
+espn_league_id: "" # optional, put your ESPN league id here for reference links
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
