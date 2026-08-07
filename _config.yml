@@ -2,8 +2,8 @@ title: The League HQ
 description: >-
   Home of our fantasy football keeper league — draft pick trades,
   historical records, and league news.
-baseurl: "" # sub-path if you use username.github.io/reponame, e.g. "/ff-league-site"
-url: "" # your full site URL once live, e.g. "https://yourusername.github.io"
+baseurl: "/D12-FFL-Website" # sub-path if you use username.github.io/reponame, e.g. "/ff-league-site"
+url: "https://cullenhgn.github.io" # your full site URL once live, e.g. "https://yourusername.github.io"
 
 # League info — edit these
 league_name: "The League"
