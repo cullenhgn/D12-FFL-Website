@@ -10,6 +10,14 @@ league_name: "The League"
 league_founded: 2015
 espn_league_id: "" # optional, put your ESPN league id here for reference links
 
+# Future draft pick board — edit these each year
+draft_year: 2027
+draft_rounds: 18
+trade_house_rule: >-
+  Only picks for the 2027 draft can be traded — no trading two years out.
+  When it's time to draft, whoever's name sits in a slot below picks in
+  that slot.
+
 # Build settings
 markdown: kramdown
 theme: minima
