@@ -1,0 +1,29 @@
+# Every time a future draft pick changes hands, add one entry here.
+# The Future Picks board reads this file to figure out who currently
+# holds each pick.
+#
+# Fields:
+#   round          - which draft round this pick belongs to (1-18)
+#   original_team  - the team id whose COLUMN this pick lives in.
+#                     This is always the team that originally owned the
+#                     slot, even if the pick has already been traded once
+#                     before — never change this to the "from" team of a
+#                     second trade, only "new_team" changes.
+#   new_team       - the team id that now holds this pick, after this trade
+#   date           - when the trade happened (YYYY-MM-DD)
+#   note           - optional context, e.g. "part of a package for a WR"
+#
+# If a pick gets traded more than once, add a SECOND entry with the same
+# round + original_team but a different new_team/date — the board always
+# shows the most recently listed entry as the current owner, and the
+# Trade Log page shows the full history.
+#
+# Example: Brian's Round 1 pick moves to Cullen.
+#
+# - round: 1
+#   original_team: team-a
+#   new_team: team-b
+#   date: 2026-08-10
+#   note: "Part of a package for a WR"
+
+[]
