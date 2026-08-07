@@ -1,15 +1,85 @@
 # One entry per franchise/owner in the league.
 # "id" should be a short, stable slug you reuse in trades.yml and records.yml.
 - id: team-a
-  owner: "Owner Name"
+  owner: "Cullen Hogan"
+  short_name: "Cullen" # shown as the column header on the Future Picks board
   team_name: "Team Nickname"
   joined: 2015
   logo: "" # optional path under /assets/img/, e.g. "/assets/img/team-a.png"
 
 - id: team-b
-  owner: "Owner Name"
+  owner: "Curtis Johnson"
+  short_name: "Curtis" # shown as the column header on the Future Picks board
   team_name: "Team Nickname"
   joined: 2015
   logo: ""
 
-# Add the rest of your teams below, following the same pattern.
+- id: team-c
+  owner: "Brian Weisiger"
+  short_name: "Brian" # shown as the column header on the Future Picks board
+  team_name: "Team Nickname"
+  joined: 2015
+  logo: ""
+
+- id: team-d
+  owner: "Parker Torres"
+  short_name: "Parker" # shown as the column header on the Future Picks board
+  team_name: "Team Nickname"
+  joined: 2015
+  logo: ""
+
+- id: team-e
+  owner: "Orion Sandoval"
+  short_name: "Orion" # shown as the column header on the Future Picks board
+  team_name: "Team Nickname"
+  joined: 2015
+  logo: ""
+
+- id: team-f
+  owner: "Matt Manwaring"
+  short_name: "Matt" # shown as the column header on the Future Picks board
+  team_name: "Team Nickname"
+  joined: 2015
+  logo: ""
+
+- id: team-g
+  owner: "Jeff Pound"
+  short_name: "Jeff" # shown as the column header on the Future Picks board
+  team_name: "Team Nickname"
+  joined: 2015
+  logo: ""
+
+- id: team-h
+  owner: "Dillon Pound"
+  short_name: "Dillon" # shown as the column header on the Future Picks board
+  team_name: "Team Nickname"
+  joined: 2015
+  logo: ""
+
+- id: team-i
+  owner: "Michael Inde"
+  short_name: "Michael" # shown as the column header on the Future Picks board
+  team_name: "Team Nickname"
+  joined: 2015
+  logo: ""
+
+- id: team-j
+  owner: "Dan Williamson"
+  short_name: "Dan" # shown as the column header on the Future Picks board
+  team_name: "Team Nickname"
+  joined: 2015
+  logo: ""
+
+- id: team-k
+  owner: "Jeremy Keeler"
+  short_name: "Jeremy" # shown as the column header on the Future Picks board
+  team_name: "Team Nickname"
+  joined: 2015
+  logo: ""
+
+- id: team-l
+  owner: "John Rhodes"
+  short_name: "John" # shown as the column header on the Future Picks board
+  team_name: "Team Nickname"
+  joined: 2015
+  logo: ""
