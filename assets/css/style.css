@@ -358,7 +358,7 @@ h1, h2, h3 { color: var(--text); }
   border-right: 1px solid var(--border);
   position: sticky;
   top: 0;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 .pd-board thead th:last-child { border-right: none; }
 
@@ -370,10 +370,10 @@ h1, h2, h3 { color: var(--text); }
   color: #fff;
   overflow: hidden;
 }
-.pd-pick-num { font-size: 0.65rem; opacity: 0.75; font-weight: 700; }
-.pd-player { font-weight: 800; font-size: 0.8rem; margin: 2px 0; line-height: 1.15; overflow-wrap: break-word; }
-.pd-meta { font-size: 0.65rem; opacity: 0.85; }
-.pd-arrow { font-size: 0.7rem; opacity: 0.6; margin-top: 4px; }
+.pd-pick-num { font-size: 0.6rem; opacity: 0.75; font-weight: 700; }
+.pd-player { font-weight: 800; font-size: 0.75rem; margin: 2px 0; line-height: 1.15; overflow-wrap: break-word; }
+.pd-meta { font-size: 0.6rem; opacity: 0.85; }
+.pd-arrow { font-size: 0.65rem; opacity: 0.6; }
 .pd-empty { color: var(--muted); text-align: center; padding: 10px 0; }
 
 /* Position colors */
