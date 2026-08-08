@@ -1,28 +1,1122 @@
-# One entry per draft year. Each pick needs: round, team, player, position,
-# nfl_team. "team_order" sets the LEFT-TO-RIGHT COLUMN order for that year's
-# board (this was your draft slot order, and usually differs year to year).
-#
-# position should be one of: QB, RB, WR, TE, DEF, K  (used for cell coloring)
-#
-# Add a new list item for each new draft year — most recent first or last,
-# doesn't matter, the page sorts them.
-
 - year: 2025
   team_order:
-    - team-a
-    - team-b
-    # ...add every team id here, in the order they picked in Round 1
+    - curtis
+    - matt
+    - giese
+    - jeremy
+    - nick
+    - michael
+    - dillon
+    - orion
+    - cullen
+    - dan
+    - brian
+    - jeff
   picks:
     - round: 1
-      team: team-a
-      player: "Player Name"
+      team: curtis
+      player: "Bijan Robinson"
       position: "RB"
-      nfl_team: "SF"
+      nfl_team: "ATL"
     - round: 1
-      team: team-b
-      player: "Player Name"
+      team: matt
+      player: "Ja'Marr Chase"
       position: "WR"
       nfl_team: "CIN"
-    # ...one entry per pick, round by round. You don't need to alternate
-    # team order yourself within a round — just list every pick with its
-    # round and team, the page figures out the snake order from team_order.
+    - round: 1
+      team: giese
+      player: "Saquon Barkley"
+      position: "RB"
+      nfl_team: "PHI"
+    - round: 1
+      team: jeremy
+      player: "Jahmyr Gibbs"
+      position: "RB"
+      nfl_team: "DET"
+    - round: 1
+      team: nick
+      player: "Derrick Henry"
+      position: "RB"
+      nfl_team: "BAL"
+    - round: 1
+      team: michael
+      player: "CeeDee Lamb"
+      position: "WR"
+      nfl_team: "DAL"
+    - round: 1
+      team: dillon
+      player: "Justin Jefferson"
+      position: "WR"
+      nfl_team: "MIN"
+    - round: 1
+      team: orion
+      player: "Nico Collins"
+      position: "WR"
+      nfl_team: "HOU"
+    - round: 1
+      team: cullen
+      player: "Christian McCaffrey"
+      position: "RB"
+      nfl_team: "SFO"
+    - round: 1
+      team: dan
+      player: "Jonathan Taylor"
+      position: "RB"
+      nfl_team: "IND"
+    - round: 1
+      team: brian
+      player: "Ashton Jeanty"
+      position: "RB"
+      nfl_team: "LVR"
+    - round: 1
+      team: jeff
+      player: "Drake London"
+      position: "WR"
+      nfl_team: "ATL"
+    - round: 2
+      team: jeff
+      player: "Josh Jacobs"
+      position: "RB"
+      nfl_team: "GBP"
+    - round: 2
+      team: brian
+      player: "Malik Nabers"
+      position: "WR"
+      nfl_team: "NYG"
+    - round: 2
+      team: dan
+      player: "A.J. Brown"
+      position: "WR"
+      nfl_team: "PHI"
+    - round: 2
+      team: cullen
+      player: "James Cook"
+      position: "RB"
+      nfl_team: "BUF"
+    - round: 2
+      team: orion
+      player: "Omarion Hampton"
+      position: "RB"
+      nfl_team: "LAC"
+    - round: 2
+      team: dillon
+      player: "Kenneth Walker III"
+      position: "RB"
+      nfl_team: "SEA"
+    - round: 2
+      team: michael
+      player: "Mike Evans"
+      position: "WR"
+      nfl_team: "TBB"
+    - round: 2
+      team: nick
+      player: "Chuba Hubbard"
+      position: "RB"
+      nfl_team: "CAR"
+    - round: 2
+      team: jeremy
+      player: "Alvin Kamara"
+      position: "RB"
+      nfl_team: "NOS"
+    - round: 2
+      team: giese
+      player: "Tyreek Hill"
+      position: "WR"
+      nfl_team: "MIA"
+    - round: 2
+      team: matt
+      player: "TreVeyon Henderson"
+      position: "RB"
+      nfl_team: "NEP"
+    - round: 2
+      team: curtis
+      player: "Lamar Jackson"
+      position: "QB"
+      nfl_team: "BAL"
+      keeper: true
+    - round: 3
+      team: curtis
+      player: "Travis Hunter"
+      position: "WR"
+      nfl_team: "JAC"
+    - round: 3
+      team: matt
+      player: "Josh Allen"
+      position: "QB"
+      nfl_team: "BUF"
+    - round: 3
+      team: giese
+      player: "Terry McLaurin"
+      position: "WR"
+      nfl_team: "WAS"
+    - round: 3
+      team: jeremy
+      player: "Marvin Harrison Jr."
+      position: "WR"
+      nfl_team: "ARI"
+    - round: 3
+      team: nick
+      player: "Davante Adams"
+      position: "WR"
+      nfl_team: "LAR"
+    - round: 3
+      team: michael
+      player: "George Kittle"
+      position: "TE"
+      nfl_team: "SFO"
+    - round: 3
+      team: dillon
+      player: "Amon-Ra St. Brown"
+      position: "WR"
+      nfl_team: "DET"
+      keeper: true
+    - round: 3
+      team: orion
+      player: "Jaxon Smith-Njigba"
+      position: "WR"
+      nfl_team: "SEA"
+    - round: 3
+      team: cullen
+      player: "DK Metcalf"
+      position: "WR"
+      nfl_team: "PIT"
+    - round: 3
+      team: dan
+      player: "Tee Higgins"
+      position: "WR"
+      nfl_team: "CIN"
+      keeper: true
+    - round: 3
+      team: brian
+      player: "James Conner"
+      position: "RB"
+      nfl_team: "ARI"
+    - round: 3
+      team: jeff
+      player: "Kaleb Johnson"
+      position: "RB"
+      nfl_team: "PIT"
+    - round: 4
+      team: jeff
+      player: "Courtland Sutton"
+      position: "WR"
+      nfl_team: "DEN"
+    - round: 4
+      team: brian
+      player: "Breece Hall"
+      position: "RB"
+      nfl_team: "NYJ"
+    - round: 4
+      team: dan
+      player: "Jalen Hurts"
+      position: "QB"
+      nfl_team: "PHI"
+    - round: 4
+      team: cullen
+      player: "D.J. Moore"
+      position: "WR"
+      nfl_team: "CHI"
+    - round: 4
+      team: orion
+      player: "Xavier Worthy"
+      position: "WR"
+      nfl_team: "KCC"
+    - round: 4
+      team: dillon
+      player: "Tetairoa McMillan"
+      position: "WR"
+      nfl_team: "CAR"
+    - round: 4
+      team: michael
+      player: "Tony Pollard"
+      position: "RB"
+      nfl_team: "TEN"
+    - round: 4
+      team: nick
+      player: "RJ Harvey"
+      position: "RB"
+      nfl_team: "DEN"
+    - round: 4
+      team: jeremy
+      player: "George Pickens"
+      position: "WR"
+      nfl_team: "DAL"
+    - round: 4
+      team: giese
+      player: "Joe Burrow"
+      position: "QB"
+      nfl_team: "CIN"
+    - round: 4
+      team: matt
+      player: "Calvin Ridley"
+      position: "WR"
+      nfl_team: "TEN"
+    - round: 4
+      team: curtis
+      player: "D'Andre Swift"
+      position: "RB"
+      nfl_team: "CHI"
+    - round: 5
+      team: curtis
+      player: "Aaron Jones"
+      position: "RB"
+      nfl_team: "MIN"
+    - round: 5
+      team: matt
+      player: "Rhamondre Stevenson"
+      position: "RB"
+      nfl_team: "NEP"
+    - round: 5
+      team: giese
+      player: "David Montgomery"
+      position: "RB"
+      nfl_team: "DET"
+    - round: 5
+      team: jeremy
+      player: "Jaylen Waddle"
+      position: "WR"
+      nfl_team: "MIA"
+    - round: 5
+      team: nick
+      player: "Jerry Jeudy"
+      position: "WR"
+      nfl_team: "CLE"
+    - round: 5
+      team: michael
+      player: "Isiah Pacheco"
+      position: "RB"
+      nfl_team: "KCC"
+    - round: 5
+      team: dillon
+      player: "Jayden Daniels"
+      position: "QB"
+      nfl_team: "WAS"
+      keeper: true
+    - round: 5
+      team: orion
+      player: "Jacory Croskey-Merritt"
+      position: "RB"
+      nfl_team: "WAS"
+    - round: 5
+      team: cullen
+      player: "Zay Flowers"
+      position: "WR"
+      nfl_team: "BAL"
+    - round: 5
+      team: dan
+      player: "DeVonta Smith"
+      position: "WR"
+      nfl_team: "PHI"
+    - round: 5
+      team: brian
+      player: "Chris Olave"
+      position: "WR"
+      nfl_team: "NOS"
+    - round: 5
+      team: jeff
+      player: "Ricky Pearsall"
+      position: "WR"
+      nfl_team: "SFO"
+    - round: 6
+      team: jeff
+      player: "J.K. Dobbins"
+      position: "RB"
+      nfl_team: "DEN"
+    - round: 6
+      team: brian
+      player: "Garrett Wilson"
+      position: "WR"
+      nfl_team: "NYJ"
+      keeper: true
+    - round: 6
+      team: dan
+      player: "Jaylen Warren"
+      position: "RB"
+      nfl_team: "PIT"
+    - round: 6
+      team: cullen
+      player: "Travis Kelce"
+      position: "TE"
+      nfl_team: "KCC"
+    - round: 6
+      team: orion
+      player: "Patrick Mahomes"
+      position: "QB"
+      nfl_team: "KCC"
+    - round: 6
+      team: dillon
+      player: "Tyrone Tracy"
+      position: "RB"
+      nfl_team: "NYG"
+    - round: 6
+      team: michael
+      player: "Rashee Rice"
+      position: "WR"
+      nfl_team: "KCC"
+      keeper: true
+    - round: 6
+      team: nick
+      player: "Brock Bowers"
+      position: "TE"
+      nfl_team: "LVR"
+      keeper: true
+    - round: 6
+      team: jeremy
+      player: "Rome Odunze"
+      position: "WR"
+      nfl_team: "CHI"
+    - round: 6
+      team: giese
+      player: "Emeka Egbuka"
+      position: "WR"
+      nfl_team: "TBB"
+    - round: 6
+      team: matt
+      player: "Chase Brown"
+      position: "RB"
+      nfl_team: "CIN"
+      keeper: true
+    - round: 6
+      team: curtis
+      player: "T.J. Hockenson"
+      position: "TE"
+      nfl_team: "MIN"
+      keeper: true
+    - round: 7
+      team: curtis
+      player: "Matthew Golden"
+      position: "WR"
+      nfl_team: "GBP"
+    - round: 7
+      team: matt
+      player: "Sam LaPorta"
+      position: "TE"
+      nfl_team: "DET"
+      keeper: true
+    - round: 7
+      team: giese
+      player: "Trey McBride"
+      position: "TE"
+      nfl_team: "ARI"
+      keeper: true
+    - round: 7
+      team: jeremy
+      player: "Puka Nacua"
+      position: "WR"
+      nfl_team: "LAR"
+      keeper: true
+    - round: 7
+      team: nick
+      player: "Deebo Samuel"
+      position: "WR"
+      nfl_team: "WAS"
+    - round: 7
+      team: michael
+      player: "Kyren Williams"
+      position: "RB"
+      nfl_team: "LAR"
+      keeper: true
+    - round: 7
+      team: dillon
+      player: "Mark Andrews"
+      position: "TE"
+      nfl_team: "BAL"
+    - round: 7
+      team: orion
+      player: "Stefon Diggs"
+      position: "WR"
+      nfl_team: "NEP"
+    - round: 7
+      team: cullen
+      player: "Dak Prescott"
+      position: "QB"
+      nfl_team: "DAL"
+    - round: 7
+      team: dan
+      player: "Evan Engram"
+      position: "TE"
+      nfl_team: "DEN"
+    - round: 7
+      team: brian
+      player: "Tyler Warren"
+      position: "TE"
+      nfl_team: "IND"
+    - round: 7
+      team: jeff
+      player: "Tucker Kraft"
+      position: "TE"
+      nfl_team: "GBP"
+    - round: 8
+      team: jeff
+      player: "Jayden Higgins"
+      position: "WR"
+      nfl_team: "HOU"
+    - round: 8
+      team: brian
+      player: "Baker Mayfield"
+      position: "QB"
+      nfl_team: "TBB"
+      keeper: true
+    - round: 8
+      team: dan
+      player: "Travis Etienne"
+      position: "RB"
+      nfl_team: "JAC"
+    - round: 8
+      team: cullen
+      player: "Keon Coleman"
+      position: "WR"
+      nfl_team: "BUF"
+    - round: 8
+      team: orion
+      player: "Cam Skattebo"
+      position: "RB"
+      nfl_team: "NYG"
+    - round: 8
+      team: dillon
+      player: "Javonte Williams"
+      position: "RB"
+      nfl_team: "DAL"
+    - round: 8
+      team: michael
+      player: "Josh Downs"
+      position: "WR"
+      nfl_team: "IND"
+    - round: 8
+      team: nick
+      player: "Xavier Legette"
+      position: "WR"
+      nfl_team: "CAR"
+    - round: 8
+      team: jeremy
+      player: "Brock Purdy"
+      position: "QB"
+      nfl_team: "SFO"
+    - round: 8
+      team: giese
+      player: "De'Von Achane"
+      position: "RB"
+      nfl_team: "MIA"
+      keeper: true
+    - round: 8
+      team: matt
+      player: "Jordan Addison"
+      position: "WR"
+      nfl_team: "MIN"
+    - round: 8
+      team: curtis
+      player: "Cooper Kupp"
+      position: "WR"
+      nfl_team: "SEA"
+    - round: 9
+      team: curtis
+      player: "J.J. McCarthy"
+      position: "QB"
+      nfl_team: "MIN"
+    - round: 9
+      team: matt
+      player: "Brian Thomas Jr."
+      position: "WR"
+      nfl_team: "JAC"
+      keeper: true
+    - round: 9
+      team: giese
+      player: "Jauan Jennings"
+      position: "WR"
+      nfl_team: "SFO"
+    - round: 9
+      team: jeremy
+      player: "Austin Ekeler"
+      position: "RB"
+      nfl_team: "WAS"
+    - round: 9
+      team: nick
+      player: "Ladd McConkey"
+      position: "WR"
+      nfl_team: "LAC"
+      keeper: true
+    - round: 9
+      team: michael
+      player: "Khalil Shakir"
+      position: "WR"
+      nfl_team: "BUF"
+    - round: 9
+      team: dillon
+      player: "Michael Pittman"
+      position: "WR"
+      nfl_team: "IND"
+    - round: 9
+      team: orion
+      player: "Colston Loveland"
+      position: "TE"
+      nfl_team: "CHI"
+    - round: 9
+      team: cullen
+      player: "Brandon Aubrey"
+      position: "K"
+      nfl_team: "DAL"
+    - round: 9
+      team: dan
+      player: "Tank Bigsby"
+      position: "RB"
+      nfl_team: "JAC"
+    - round: 9
+      team: brian
+      player: "Joe Mixon"
+      position: "RB"
+      nfl_team: "HOU"
+    - round: 9
+      team: jeff
+      player: "Bryce Young"
+      position: "QB"
+      nfl_team: "CAR"
+    - round: 10
+      team: jeff
+      player: "Quinshon Judkins"
+      position: "RB"
+      nfl_team: "CLE"
+    - round: 10
+      team: brian
+      player: "Rashod Bateman"
+      position: "WR"
+      nfl_team: "BAL"
+    - round: 10
+      team: dan
+      player: "Justin Fields"
+      position: "QB"
+      nfl_team: "NYJ"
+    - round: 10
+      team: cullen
+      player: "Zack Baun"
+      position: "LB"
+      nfl_team: "PHI"
+    - round: 10
+      team: orion
+      player: "Jameson Williams"
+      position: "WR"
+      nfl_team: "DET"
+      keeper: true
+    - round: 10
+      team: dillon
+      player: "Brian Robinson"
+      position: "RB"
+      nfl_team: "SFO"
+    - round: 10
+      team: michael
+      player: "Justin Herbert"
+      position: "QB"
+      nfl_team: "LAC"
+    - round: 10
+      team: nick
+      player: "Jaydon Blue"
+      position: "RB"
+      nfl_team: "DAL"
+    - round: 10
+      team: jeremy
+      player: "Zach Charbonnet"
+      position: "RB"
+      nfl_team: "SEA"
+      keeper: true
+    - round: 10
+      team: giese
+      player: "Nick Chubb"
+      position: "RB"
+      nfl_team: "HOU"
+    - round: 10
+      team: matt
+      player: "Trey Benson"
+      position: "RB"
+      nfl_team: "ARI"
+    - round: 10
+      team: curtis
+      player: "Chris Godwin"
+      position: "WR"
+      nfl_team: "TBB"
+    - round: 11
+      team: curtis
+      player: "Darnell Mooney"
+      position: "WR"
+      nfl_team: "ATL"
+    - round: 11
+      team: matt
+      player: "Dalton Kincaid"
+      position: "TE"
+      nfl_team: "BUF"
+    - round: 11
+      team: giese
+      player: "Jordan Love"
+      position: "QB"
+      nfl_team: "GBP"
+    - round: 11
+      team: jeremy
+      player: "David Njoku"
+      position: "TE"
+      nfl_team: "CLE"
+      keeper: true
+    - round: 11
+      team: nick
+      player: "Bo Nix"
+      position: "QB"
+      nfl_team: "DEN"
+      keeper: true
+    - round: 11
+      team: michael
+      player: "Will Shipley"
+      position: "RB"
+      nfl_team: "PHI"
+    - round: 11
+      team: dillon
+      player: "Rachaad White"
+      position: "RB"
+      nfl_team: "TBB"
+    - round: 11
+      team: orion
+      player: "Caleb Williams"
+      position: "QB"
+      nfl_team: "CHI"
+    - round: 11
+      team: cullen
+      player: "T.J. Watt"
+      position: "DE"
+      nfl_team: "PIT"
+    - round: 11
+      team: dan
+      player: "Denver Broncos"
+      position: "DEF"
+      nfl_team: "DEN"
+    - round: 11
+      team: brian
+      player: "Jaylen Wright"
+      position: "RB"
+      nfl_team: "MIA"
+    - round: 11
+      team: jeff
+      player: "Jarquez Hunter"
+      position: "RB"
+      nfl_team: "LAR"
+    - round: 12
+      team: jeff
+      player: "Rashid Shaheed"
+      position: "WR"
+      nfl_team: "NOS"
+    - round: 12
+      team: brian
+      player: "Jayden Reed"
+      position: "WR"
+      nfl_team: "GBP"
+    - round: 12
+      team: dan
+      player: "Cameron Dicker"
+      position: "K"
+      nfl_team: "LAC"
+    - round: 12
+      team: cullen
+      player: "Brian Branch"
+      position: "S"
+      nfl_team: "DET"
+    - round: 12
+      team: orion
+      player: "Jordan Mason"
+      position: "RB"
+      nfl_team: "MIN"
+      keeper: true
+    - round: 12
+      team: dillon
+      player: "Roquan Smith"
+      position: "LB"
+      nfl_team: "BAL"
+    - round: 12
+      team: michael
+      player: "Aidan Hutchinson"
+      position: "DE"
+      nfl_team: "DET"
+    - round: 12
+      team: nick
+      player: "Tua Tagovailoa"
+      position: "QB"
+      nfl_team: "MIA"
+    - round: 12
+      team: jeremy
+      player: "Kyler Murray"
+      position: "QB"
+      nfl_team: "ARI"
+      keeper: true
+    - round: 12
+      team: giese
+      player: "DeShon Elliott"
+      position: "S"
+      nfl_team: "PIT"
+    - round: 12
+      team: matt
+      player: "Maxx Crosby"
+      position: "DE"
+      nfl_team: "LVR"
+    - round: 12
+      team: curtis
+      player: "Jakobi Meyers"
+      position: "WR"
+      nfl_team: "LVR"
+      keeper: true
+    - round: 13
+      team: curtis
+      player: "Ollie Gordon"
+      position: "RB"
+      nfl_team: "MIA"
+    - round: 13
+      team: matt
+      player: "Baltimore Ravens"
+      position: "DEF"
+      nfl_team: "BAL"
+    - round: 13
+      team: giese
+      player: "Houston Texans"
+      position: "DEF"
+      nfl_team: "HOU"
+    - round: 13
+      team: jeremy
+      player: "Philadelphia Eagles"
+      position: "DEF"
+      nfl_team: "PHI"
+    - round: 13
+      team: nick
+      player: "Jerome Ford"
+      position: "RB"
+      nfl_team: "CLE"
+    - round: 13
+      team: michael
+      player: "Fred Warner"
+      position: "LB"
+      nfl_team: "SFO"
+    - round: 13
+      team: dillon
+      player: "Budda Baker"
+      position: "S"
+      nfl_team: "ARI"
+    - round: 13
+      team: orion
+      player: "Elic Ayomanor"
+      position: "WR"
+      nfl_team: "TEN"
+    - round: 13
+      team: cullen
+      player: "Minnesota Vikings"
+      position: "DEF"
+      nfl_team: "MIN"
+    - round: 13
+      team: dan
+      player: "Zaire Franklin"
+      position: "LB"
+      nfl_team: "IND"
+    - round: 13
+      team: brian
+      player: "Buffalo Bills"
+      position: "DEF"
+      nfl_team: "BUF"
+    - round: 13
+      team: jeff
+      player: "Kyle Hamilton"
+      position: "S"
+      nfl_team: "BAL"
+    - round: 14
+      team: jeff
+      player: "Ernest Jones"
+      position: "LB"
+      nfl_team: "SEA"
+    - round: 14
+      team: brian
+      player: "Michael Penix Jr."
+      position: "QB"
+      nfl_team: "ATL"
+    - round: 14
+      team: dan
+      player: "Myles Garrett"
+      position: "DE"
+      nfl_team: "CLE"
+    - round: 14
+      team: cullen
+      player: "Bucky Irving"
+      position: "RB"
+      nfl_team: "TBB"
+      keeper: true
+    - round: 14
+      team: orion
+      player: "Jake Bates"
+      position: "K"
+      nfl_team: "DET"
+    - round: 14
+      team: dillon
+      player: "Pittsburgh Steelers"
+      position: "DEF"
+      nfl_team: "PIT"
+    - round: 14
+      team: michael
+      player: "Derwin James"
+      position: "S"
+      nfl_team: "LAC"
+    - round: 14
+      team: nick
+      player: "Nik Bonitto"
+      position: "DE"
+      nfl_team: "DEN"
+    - round: 14
+      team: jeremy
+      player: "Wil Lutz"
+      position: "K"
+      nfl_team: "DEN"
+    - round: 14
+      team: giese
+      player: "Foyesade Oluokun"
+      position: "LB"
+      nfl_team: "JAC"
+    - round: 14
+      team: matt
+      player: "Jaquan Brisker"
+      position: "S"
+      nfl_team: "CHI"
+    - round: 14
+      team: curtis
+      player: "New England Patriots"
+      position: "DEF"
+      nfl_team: "NEP"
+    - round: 15
+      team: curtis
+      player: "Najee Harris"
+      position: "RB"
+      nfl_team: "LAC"
+    - round: 15
+      team: matt
+      player: "Alex Singleton"
+      position: "LB"
+      nfl_team: "DEN"
+    - round: 15
+      team: giese
+      player: "Andrew Van Ginkel"
+      position: "DE"
+      nfl_team: "MIN"
+    - round: 15
+      team: jeremy
+      player: "Blake Cashman"
+      position: "LB"
+      nfl_team: "MIN"
+    - round: 15
+      team: nick
+      player: "Zach Allen"
+      position: "DT"
+      nfl_team: "DEN"
+    - round: 15
+      team: michael
+      player: "Drake Maye"
+      position: "QB"
+      nfl_team: "NEP"
+      keeper: true
+    - round: 15
+      team: dillon
+      player: "Chase McLaughlin"
+      position: "K"
+      nfl_team: "TBB"
+    - round: 15
+      team: orion
+      player: "New York Jets"
+      position: "DEF"
+      nfl_team: "NYJ"
+    - round: 15
+      team: cullen
+      player: "Trevor Lawrence"
+      position: "QB"
+      nfl_team: "JAC"
+    - round: 15
+      team: dan
+      player: "Christian Kirk"
+      position: "WR"
+      nfl_team: "HOU"
+    - round: 15
+      team: brian
+      player: "Matt Gay"
+      position: "K"
+      nfl_team: "WAS"
+    - round: 15
+      team: jeff
+      player: "Micah Parsons"
+      position: "DE"
+      nfl_team: "GBP"
+    - round: 16
+      team: jeff
+      player: "Detroit Lions"
+      position: "DEF"
+      nfl_team: "DET"
+    - round: 16
+      team: brian
+      player: "Robert Spillane"
+      position: "LB"
+      nfl_team: "NEP"
+    - round: 16
+      team: dan
+      player: "Marvin Mims"
+      position: "WR"
+      nfl_team: "DEN"
+    - round: 16
+      team: cullen
+      player: "Mason Taylor"
+      position: "TE"
+      nfl_team: "NYJ"
+    - round: 16
+      team: orion
+      player: "Nick Bosa"
+      position: "DE"
+      nfl_team: "SFO"
+    - round: 16
+      team: dillon
+      player: "Trey Hendrickson"
+      position: "DE"
+      nfl_team: "CIN"
+    - round: 16
+      team: michael
+      player: "Arizona Cardinals"
+      position: "DEF"
+      nfl_team: "ARI"
+    - round: 16
+      team: nick
+      player: "Patrick Surtain II"
+      position: "CB"
+      nfl_team: "DEN"
+    - round: 16
+      team: jeremy
+      player: "Kamren Kinchens"
+      position: "S"
+      nfl_team: "LAR"
+    - round: 16
+      team: giese
+      player: "Jake Elliott"
+      position: "K"
+      nfl_team: "PHI"
+    - round: 16
+      team: matt
+      player: "C.J. Stroud"
+      position: "QB"
+      nfl_team: "HOU"
+      keeper: true
+    - round: 16
+      team: curtis
+      player: "Brian Burns"
+      position: "DE"
+      nfl_team: "NYG"
+    - round: 17
+      team: curtis
+      player: "Bobby Okereke"
+      position: "LB"
+      nfl_team: "NYG"
+    - round: 17
+      team: matt
+      player: "Tyler Loop"
+      position: "K"
+      nfl_team: "BAL"
+    - round: 17
+      team: giese
+      player: "Ray Davis"
+      position: "RB"
+      nfl_team: "BUF"
+    - round: 17
+      team: jeremy
+      player: "Tory Horton"
+      position: "WR"
+      nfl_team: "SEA"
+    - round: 17
+      team: nick
+      player: "Seattle Seahawks"
+      position: "DEF"
+      nfl_team: "SEA"
+    - round: 17
+      team: michael
+      player: "Brandon Aiyuk"
+      position: "WR"
+      nfl_team: "SFO"
+    - round: 17
+      team: dillon
+      player: "Kyle Pitts"
+      position: "TE"
+      nfl_team: "ATL"
+    - round: 17
+      team: orion
+      player: "Julian Love"
+      position: "S"
+      nfl_team: "SEA"
+    - round: 17
+      team: cullen
+      player: "Tyler Allgeier"
+      position: "RB"
+      nfl_team: "ATL"
+    - round: 17
+      team: dan
+      player: "Dylan Sampson"
+      position: "RB"
+      nfl_team: "CLE"
+    - round: 17
+      team: brian
+      player: "Will Anderson"
+      position: "DE"
+      nfl_team: "HOU"
+    - round: 17
+      team: jeff
+      player: "Ka'imi Fairbairn"
+      position: "K"
+      nfl_team: "HOU"
+    - round: 18
+      team: jeff
+      player: "Cam Ward"
+      position: "QB"
+      nfl_team: "TEN"
+    - round: 18
+      team: brian
+      player: "Jessie Bates"
+      position: "S"
+      nfl_team: "ATL"
+    - round: 18
+      team: dan
+      player: "Antoine Winfield"
+      position: "S"
+      nfl_team: "TBB"
+    - round: 18
+      team: cullen
+      player: "Cedric Tillman"
+      position: "WR"
+      nfl_team: "CLE"
+    - round: 18
+      team: orion
+      player: "Patrick Queen"
+      position: "LB"
+      nfl_team: "PIT"
+    - round: 18
+      team: dillon
+      player: "Jaxson Dart"
+      position: "QB"
+      nfl_team: "NYG"
+    - round: 18
+      team: michael
+      player: "Evan McPherson"
+      position: "K"
+      nfl_team: "CIN"
+    - round: 18
+      team: nick
+      player: "Brandon McManus"
+      position: "K"
+      nfl_team: "GBP"
+    - round: 18
+      team: jeremy
+      player: "Jared Verse"
+      position: "DE"
+      nfl_team: "LAR"
+    - round: 18
+      team: giese
+      player: "Dallas Goedert"
+      position: "TE"
+      nfl_team: "PHI"
+    - round: 18
+      team: matt
+      player: "Braelon Allen"
+      position: "RB"
+      nfl_team: "NYJ"
+    - round: 18
+      team: curtis
+      player: "Harrison Butker"
+      position: "K"
+      nfl_team: "KCC"
