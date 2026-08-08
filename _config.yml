@@ -1,4 +1,4 @@
-title: The League HQ
+title: D12 FFL
 description: >-
   Home of our fantasy football keeper league — draft pick trades,
   historical records, and league news.
@@ -6,8 +6,8 @@ baseurl: "/D12-FFL-Website" # sub-path if you use username.github.io/reponame, e
 url: "https://cullenhgn.github.io" # your full site URL once live, e.g. "https://yourusername.github.io"
 
 # League info — edit these
-league_name: "The League"
-league_founded: 2015
+league_name: "D12 FFL"
+league_founded: 2012
 espn_league_id: "" # optional, put your ESPN league id here for reference links
 
 # Future draft pick board — edit these each year
