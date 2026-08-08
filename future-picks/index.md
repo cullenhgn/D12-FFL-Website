@@ -4,7 +4,7 @@ title: Future Draft Picks
 permalink: /future-picks/
 ---
 
-{% assign teams = site.data.teams %}
+{% assign teams = site.data.teams | sort: "short_name" %}
 {% assign rounds = site.draft_rounds | default: 18 %}
 {% assign pick_trades = site.data.pick_trades %}
 
