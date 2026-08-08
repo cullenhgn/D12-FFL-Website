@@ -1,0 +1,28 @@
+# One entry per draft year. Each pick needs: round, team, player, position,
+# nfl_team. "team_order" sets the LEFT-TO-RIGHT COLUMN order for that year's
+# board (this was your draft slot order, and usually differs year to year).
+#
+# position should be one of: QB, RB, WR, TE, DEF, K  (used for cell coloring)
+#
+# Add a new list item for each new draft year — most recent first or last,
+# doesn't matter, the page sorts them.
+
+- year: 2025
+  team_order:
+    - team-a
+    - team-b
+    # ...add every team id here, in the order they picked in Round 1
+  picks:
+    - round: 1
+      team: team-a
+      player: "Player Name"
+      position: "RB"
+      nfl_team: "SF"
+    - round: 1
+      team: team-b
+      player: "Player Name"
+      position: "WR"
+      nfl_team: "CIN"
+    # ...one entry per pick, round by round. You don't need to alternate
+    # team order yourself within a round — just list every pick with its
+    # round and team, the page figures out the snake order from team_order.
