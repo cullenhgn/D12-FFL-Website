@@ -289,3 +289,89 @@ h1, h2, h3 { color: var(--text); }
 @media (max-width: 600px) {
   .trade-teams { grid-template-columns: 1fr; }
 }
+
+/* Previous Drafts board */
+.pd-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.pd-tab {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.pd-tab:hover { color: var(--text); }
+.pd-tab-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #1a1200;
+}
+
+.pd-legend {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.pd-legend-item {
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.pd-board-wrap { margin-bottom: 20px; }
+.pd-board-scroll {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+.pd-board {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 900px;
+}
+.pd-board thead th {
+  background: var(--panel);
+  color: var(--text);
+  font-weight: 700;
+  padding: 12px 10px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  font-size: 0.85rem;
+}
+.pd-board thead th:last-child { border-right: none; }
+
+.pd-cell {
+  vertical-align: top;
+  padding: 8px;
+  border-right: 1px solid var(--bg);
+  border-bottom: 1px solid var(--bg);
+  min-width: 90px;
+  color: #fff;
+}
+.pd-pick-num { font-size: 0.7rem; opacity: 0.75; font-weight: 700; }
+.pd-player { font-weight: 800; font-size: 0.85rem; margin: 2px 0; line-height: 1.15; }
+.pd-meta { font-size: 0.7rem; opacity: 0.85; }
+.pd-arrow { font-size: 0.75rem; opacity: 0.6; margin-top: 4px; }
+.pd-empty { color: var(--muted); text-align: center; padding: 10px 0; }
+
+/* Position colors */
+.pd-pos-QB { background: #7d3a5c; }
+.pd-pos-RB { background: #3f7d5c; }
+.pd-pos-WR { background: #3f6fa8; }
+.pd-pos-TE { background: #b97a3d; }
+.pd-pos-DEF { background: #55606e; }
+.pd-pos-DST { background: #55606e; }
+.pd-pos-K { background: #7a6bab; }
