@@ -24,7 +24,7 @@ permalink: /previous-drafts/
   <span class="pd-legend-item pd-keeper-legend"><span class="pd-keeper-badge">K</span> = Keeper</span>
 </div>
 
-<div id="pd-board-wrap" class="pd-board-wrap">
+<div id="pd-board-wrap" class="pd-board-wrap pd-full-bleed">
   <p class="fp-sub">No drafts logged yet. Add a year to <code>_data/drafts.yml</code> to see it here.</p>
 </div>
 
