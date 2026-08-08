@@ -21,6 +21,7 @@ permalink: /previous-drafts/
   <span class="pd-legend-item pd-pos-TE">TE</span>
   <span class="pd-legend-item pd-pos-DEF">DEF</span>
   <span class="pd-legend-item pd-pos-K">K</span>
+  <span class="pd-legend-item pd-keeper-legend"><span class="pd-keeper-badge">K</span> = Keeper</span>
 </div>
 
 <div id="pd-board-wrap" class="pd-board-wrap">
@@ -85,9 +86,9 @@ permalink: /previous-drafts/
         var isTurn = odd ? colIndex === order.length - 1 : colIndex === 0;
         var arrow = isTurn ? '&darr;' : (odd ? '&rarr;' : '&larr;');
 
-        html += '<td class="pd-cell ' + posClass + '">';
+        html += '<td class="pd-cell ' + posClass + (pick && pick.keeper ? ' pd-keeper' : '') + '">';
         if (pick) {
-          html += '<div class="pd-pick-num">' + r + '.' + (colIndex + 1) + '</div>';
+          html += '<div class="pd-pick-num">' + r + '.' + (colIndex + 1) + (pick.keeper ? ' <span class="pd-keeper-badge">K</span>' : '') + '</div>';
           html += '<div class="pd-player">' + escapeHtml(pick.player) + '</div>';
           html += '<div class="pd-meta">' + escapeHtml(pick.position || '') + (pick.nfl_team ? ' - ' + escapeHtml(pick.nfl_team) : '') + '</div>';
           html += '<div class="pd-arrow">' + arrow + '</div>';
