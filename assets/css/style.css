@@ -346,6 +346,7 @@ h1, h2, h3 { color: var(--text); }
 .pd-board {
   border-collapse: collapse;
   width: 100%;
+  min-width: 1320px;
   table-layout: fixed;
 }
 .pd-board thead th {
@@ -371,7 +372,7 @@ h1, h2, h3 { color: var(--text); }
   overflow: hidden;
 }
 .pd-pick-num { font-size: 0.6rem; opacity: 0.75; font-weight: 700; }
-.pd-player { font-weight: 800; font-size: 0.75rem; margin: 2px 0; line-height: 1.15; overflow-wrap: break-word; }
+.pd-player { font-weight: 800; font-size: 0.75rem; margin: 2px 0; line-height: 1.15; }
 .pd-meta { font-size: 0.6rem; opacity: 0.85; }
 .pd-arrow { font-size: 0.65rem; opacity: 0.6; }
 .pd-empty { color: var(--muted); text-align: center; padding: 10px 0; }
