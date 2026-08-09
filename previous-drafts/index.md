@@ -83,13 +83,14 @@ permalink: /previous-drafts/
         var pick = rounds[r][teamId];
         var posClass = pick ? 'pd-pos-' + (pick.position || '').toUpperCase() : '';
         var odd = r % 2 === 1;
+        var pickInRound = odd ? (colIndex + 1) : (order.length - colIndex);
         var isTurn = odd ? colIndex === order.length - 1 : colIndex === 0;
         var arrow = isTurn ? '&darr;' : (odd ? '&rarr;' : '&larr;');
 
         html += '<td class="pd-cell ' + posClass + (pick && pick.keeper ? ' pd-keeper' : '') + '">';
         if (pick) {
-          html += '<div class="pd-pick-num">' + r + '.' + (colIndex + 1) + ' <span class="pd-arrow">' + arrow + '</span>' + (pick.keeper ? ' <span class="pd-keeper-badge">K</span>' : '') + '</div>';
-          html += '<div class="pd-player">' + escapeHtml(pick.player) + '</div>';
+          html += '<div class="pd-pick-num">' + r + '.' + pickInRound + ' <span class="pd-arrow">' + arrow + '</span>' + (pick.keeper ? ' <span class="pd-keeper-badge">K</span>' : '') + '</div>';
+          html += '<div class="pd-player">' + escapeHtml(abbreviateName(pick.player)) + '</div>';
           html += '<div class="pd-meta">' + escapeHtml(pick.position || '') + (pick.nfl_team ? ' - ' + escapeHtml(pick.nfl_team) : '') + '</div>';
         } else {
           html += '<div class="pd-empty">&mdash;</div>';
@@ -107,6 +108,12 @@ permalink: /previous-drafts/
     return String(str).replace(/[&<>"']/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
+  }
+
+  function abbreviateName(name) {
+    var parts = String(name).trim().split(/\s+/);
+    if (parts.length < 2) return name;
+    return parts[0].charAt(0) + '. ' + parts.slice(1).join(' ');
   }
 
   renderBoard(drafts[0]);
