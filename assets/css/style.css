@@ -337,6 +337,7 @@ h1, h2, h3 { color: var(--text); }
   max-width: 1700px;
   padding: 0 20px;
   box-sizing: border-box;
+  text-align: center;
 }
 .pd-board-scroll {
   overflow-x: auto;
@@ -349,6 +350,7 @@ h1, h2, h3 { color: var(--text); }
   border-collapse: collapse;
   width: auto;
   table-layout: auto;
+  text-align: left;
 }
 .pd-board thead th {
   background: var(--panel);
