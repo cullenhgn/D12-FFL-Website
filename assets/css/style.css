@@ -119,7 +119,6 @@ h1, h2, h3 { color: var(--text); }
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
-.fp-header h1 { margin: 4px 0 6px; }
 .fp-sub { color: var(--muted); font-size: 0.9rem; margin: 0 0 16px; }
 .fp-badges { display: flex; gap: 8px; flex-wrap: wrap; }
 .badge {
