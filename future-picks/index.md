@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Future Draft Picks
+title: 2027 Draft Board
 permalink: /future-picks/
 ---
 
@@ -11,7 +11,7 @@ permalink: /future-picks/
 <div class="fp-header">
   <div>
     <p class="fp-eyebrow">Future Pick Ledger</p>
-    <h1>Big Board — {{ site.draft_year }}</h1>
+    <h1>2027 Draft Board</h1>
     <p class="fp-sub">Columns = original team. Cell = who picks there now.</p>
   </div>
   <div class="fp-badges">
