@@ -21,6 +21,7 @@ permalink: /previous-drafts/
   <span class="pd-legend-item pd-pos-TE">TE</span>
   <span class="pd-legend-item pd-pos-DEF">DEF</span>
   <span class="pd-legend-item pd-pos-K">K</span>
+  <span class="pd-legend-item pd-pos-IDP">IDP</span>
   <span class="pd-legend-item pd-keeper-legend"><span class="pd-keeper-badge">K</span> = Keeper</span>
 </div>
 
@@ -90,7 +91,7 @@ permalink: /previous-drafts/
         html += '<td class="pd-cell ' + posClass + (pick && pick.keeper ? ' pd-keeper' : '') + '">';
         if (pick) {
           html += '<div class="pd-pick-num">' + r + '.' + pickInRound + ' <span class="pd-arrow">' + arrow + '</span>' + (pick.keeper ? ' <span class="pd-keeper-badge">K</span>' : '') + '</div>';
-          html += '<div class="pd-player">' + escapeHtml(abbreviateName(pick.player)) + '</div>';
+          html += '<div class="pd-player">' + escapeHtml(displayPlayerName(pick)) + '</div>';
           html += '<div class="pd-meta">' + escapeHtml(pick.position || '') + (pick.nfl_team ? ' - ' + escapeHtml(pick.nfl_team) : '') + '</div>';
         } else {
           html += '<div class="pd-empty">&mdash;</div>';
@@ -114,6 +115,18 @@ permalink: /previous-drafts/
     var parts = String(name).trim().split(/\s+/);
     if (parts.length < 2) return name;
     return parts[0].charAt(0) + '. ' + parts.slice(1).join(' ');
+  }
+
+  function abbreviateTeamDefense(name) {
+    var parts = String(name).trim().split(/\s+/);
+    if (parts.length < 2) return name;
+    return parts[0].charAt(0) + '. ' + parts[parts.length - 1];
+  }
+
+  function displayPlayerName(pick) {
+    var pos = (pick.position || '').toUpperCase();
+    if (pos === 'DEF' || pos === 'DST') return abbreviateTeamDefense(pick.player);
+    return abbreviateName(pick.player);
   }
 
   renderBoard(drafts[0]);
