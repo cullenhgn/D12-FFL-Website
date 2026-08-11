@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Previous Drafts
+title: Draft History
 permalink: /previous-drafts/
 ---
 
 <div class="fp-header">
   <div>
-    <p class="fp-eyebrow">Draft History</p>
-    <h1>Previous Drafts</h1>
+    <p class="fp-eyebrow">League Archive</p>
+    <h1>Draft History</h1>
     <p class="fp-sub">Every pick, every year. Columns are draft slot order for that season.</p>
   </div>
 </div>
