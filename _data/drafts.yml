@@ -1120,3 +1120,914 @@
       player: "Harrison Butker"
       position: "K"
       nfl_team: "KCC"
+- year: 2024
+  team_order:
+    - nick
+    - cullen
+    - michael
+    - brian
+    - matt
+    - dillon
+    - orion
+    - dan
+    - jeremy
+    - jeff
+    - curtis
+    - giese
+  picks:
+    - round: 1
+      team: nick
+      player: "Christian McCaffrey"
+      position: "RB"
+    - round: 1
+      team: cullen
+      player: "CeeDee Lamb"
+      position: "WR"
+    - round: 1
+      team: michael
+      player: "Bijan Robinson"
+      position: "RB"
+    - round: 1
+      team: brian
+      player: "Tyreek Hill"
+      position: "WR"
+    - round: 1
+      team: matt
+      player: "Justin Jefferson"
+      position: "WR"
+    - round: 1
+      team: dillon
+      player: "A.J. Brown"
+      position: "WR"
+    - round: 1
+      team: orion
+      player: "Jonathan Taylor"
+      position: "RB"
+    - round: 1
+      team: dan
+      player: "Saquon Barkley"
+      position: "RB"
+    - round: 1
+      team: jeremy
+      player: "Jahmyr Gibbs"
+      position: "RB"
+    - round: 1
+      team: jeff
+      player: "Marvin Harrison Jr."
+      position: "WR"
+    - round: 1
+      team: curtis
+      player: "Derrick Henry"
+      position: "RB"
+    - round: 1
+      team: giese
+      player: "Isiah Pacheco"
+      position: "RB"
+    - round: 2
+      team: giese
+      player: "Drake London"
+      position: "WR"
+    - round: 2
+      team: curtis
+      player: "Breece Hall"
+      position: "RB"
+      keeper: true
+    - round: 2
+      team: jeff
+      player: "Josh Jacobs"
+      position: "RB"
+    - round: 2
+      team: jeremy
+      player: "James Cook"
+      position: "RB"
+    - round: 2
+      team: dan
+      player: "Travis Kelce"
+      position: "TE"
+    - round: 2
+      team: orion
+      player: "Kenneth Walker III"
+      position: "RB"
+    - round: 2
+      team: dillon
+      player: "Jaylen Waddle"
+      position: "WR"
+    - round: 2
+      team: matt
+      player: "Nico Collins"
+      position: "WR"
+    - round: 2
+      team: brian
+      player: "Alvin Kamara"
+      position: "RB"
+    - round: 2
+      team: michael
+      player: "Cooper Kupp"
+      position: "WR"
+    - round: 2
+      team: cullen
+      player: "Josh Allen"
+      position: "QB"
+    - round: 2
+      team: nick
+      player: "Davante Adams"
+      position: "WR"
+    - round: 3
+      team: nick
+      player: "Joe Mixon"
+      position: "RB"
+    - round: 3
+      team: cullen
+      player: "Mark Andrews"
+      position: "TE"
+    - round: 3
+      team: michael
+      player: "DeVonta Smith"
+      position: "WR"
+    - round: 3
+      team: brian
+      player: "Aaron Jones"
+      position: "RB"
+    - round: 3
+      team: matt
+      player: "David Montgomery"
+      position: "RB"
+    - round: 3
+      team: dillon
+      player: "James Conner"
+      position: "RB"
+    - round: 3
+      team: orion
+      player: "Brandon Aiyuk"
+      position: "WR"
+    - round: 3
+      team: dan
+      player: "Stefon Diggs"
+      position: "WR"
+    - round: 3
+      team: jeremy
+      player: "Michael Pittman"
+      position: "WR"
+    - round: 3
+      team: jeff
+      player: "DK Metcalf"
+      position: "WR"
+    - round: 3
+      team: curtis
+      player: "Patrick Mahomes"
+      position: "QB"
+    - round: 3
+      team: giese
+      player: "Lamar Jackson"
+      position: "QB"
+    - round: 4
+      team: giese
+      player: "D.J. Moore"
+      position: "WR"
+    - round: 4
+      team: curtis
+      player: "Calvin Ridley"
+      position: "WR"
+    - round: 4
+      team: jeff
+      player: "Najee Harris"
+      position: "RB"
+    - round: 4
+      team: jeremy
+      player: "Rhamondre Stevenson"
+      position: "RB"
+    - round: 4
+      team: dan
+      player: "Tee Higgins"
+      position: "WR"
+    - round: 4
+      team: orion
+      player: "Amari Cooper"
+      position: "WR"
+    - round: 4
+      team: dillon
+      player: "Amon-Ra St. Brown"
+      position: "WR"
+      keeper: true
+    - round: 4
+      team: matt
+      player: "Malik Nabers"
+      position: "WR"
+    - round: 4
+      team: brian
+      player: "Chris Godwin"
+      position: "WR"
+    - round: 4
+      team: michael
+      player: "Kyle Pitts"
+      position: "TE"
+    - round: 4
+      team: cullen
+      player: "Ja'Marr Chase"
+      position: "WR"
+      keeper: true
+    - round: 4
+      team: nick
+      player: "Zay Flowers"
+      position: "WR"
+    - round: 5
+      team: nick
+      player: "Keenan Allen"
+      position: "WR"
+    - round: 5
+      team: cullen
+      player: "Javonte Williams"
+      position: "RB"
+    - round: 5
+      team: michael
+      player: "Diontae Johnson"
+      position: "WR"
+    - round: 5
+      team: brian
+      player: "George Kittle"
+      position: "TE"
+      keeper: true
+    - round: 5
+      team: matt
+      player: "Chris Olave"
+      position: "WR"
+      keeper: true
+    - round: 5
+      team: dillon
+      player: "Terry McLaurin"
+      position: "WR"
+    - round: 5
+      team: orion
+      player: "George Pickens"
+      position: "WR"
+    - round: 5
+      team: dan
+      player: "D'Andre Swift"
+      position: "RB"
+    - round: 5
+      team: jeremy
+      player: "Jayden Reed"
+      position: "WR"
+    - round: 5
+      team: jeff
+      player: "Christian Kirk"
+      position: "WR"
+    - round: 5
+      team: curtis
+      player: "Mike Evans"
+      position: "WR"
+      keeper: true
+    - round: 5
+      team: giese
+      player: "Brian Robinson"
+      position: "RB"
+    - round: 6
+      team: giese
+      player: "Christian Watson"
+      position: "WR"
+    - round: 6
+      team: curtis
+      player: "Courtland Sutton"
+      position: "WR"
+    - round: 6
+      team: jeff
+      player: "Travis Etienne"
+      position: "RB"
+      keeper: true
+    - round: 6
+      team: jeremy
+      player: "Dak Prescott"
+      position: "QB"
+    - round: 6
+      team: dan
+      player: "Austin Ekeler"
+      position: "RB"
+    - round: 6
+      team: orion
+      player: "Xavier Worthy"
+      position: "WR"
+    - round: 6
+      team: dillon
+      player: "Jayden Daniels"
+      position: "QB"
+    - round: 6
+      team: matt
+      player: "Jonathon Brooks"
+      position: "RB"
+    - round: 6
+      team: brian
+      player: "Rome Odunze"
+      position: "WR"
+    - round: 6
+      team: michael
+      player: "Jerome Ford"
+      position: "RB"
+    - round: 6
+      team: cullen
+      player: "Tyjae Spears"
+      position: "RB"
+    - round: 6
+      team: nick
+      player: "Deebo Samuel"
+      position: "WR"
+      keeper: true
+    - round: 7
+      team: nick
+      player: "Brock Bowers"
+      position: "TE"
+    - round: 7
+      team: cullen
+      player: "DeAndre Hopkins"
+      position: "WR"
+    - round: 7
+      team: michael
+      player: "Rashee Rice"
+      position: "WR"
+      keeper: true
+    - round: 7
+      team: brian
+      player: "Garrett Wilson"
+      position: "WR"
+      keeper: true
+    - round: 7
+      team: matt
+      player: "Chase Brown"
+      position: "RB"
+    - round: 7
+      team: dillon
+      player: "Zack Moss"
+      position: "RB"
+    - round: 7
+      team: orion
+      player: "Dalton Kincaid"
+      position: "TE"
+      keeper: true
+    - round: 7
+      team: dan
+      player: "T.J. Hockenson"
+      position: "TE"
+    - round: 7
+      team: jeremy
+      player: "Jordan Addison"
+      position: "WR"
+    - round: 7
+      team: jeff
+      player: "Brock Purdy"
+      position: "QB"
+    - round: 7
+      team: curtis
+      player: "Nick Chubb"
+      position: "RB"
+    - round: 7
+      team: giese
+      player: "Jaxon Smith-Njigba"
+      position: "WR"
+    - round: 8
+      team: giese
+      player: "Trey McBride"
+      position: "TE"
+      keeper: true
+    - round: 8
+      team: curtis
+      player: "Evan Engram"
+      position: "TE"
+    - round: 8
+      team: jeff
+      player: "Dalton Schultz"
+      position: "TE"
+    - round: 8
+      team: jeremy
+      player: "Tank Dell"
+      position: "WR"
+      keeper: true
+    - round: 8
+      team: dan
+      player: "Puka Nacua"
+      position: "WR"
+      keeper: true
+    - round: 8
+      team: orion
+      player: "Anthony Richardson"
+      position: "QB"
+      keeper: true
+    - round: 8
+      team: dillon
+      player: "Jake Ferguson"
+      position: "TE"
+    - round: 8
+      team: matt
+      player: "Sam LaPorta"
+      position: "TE"
+      keeper: true
+    - round: 8
+      team: brian
+      player: "Blake Corum"
+      position: "RB"
+    - round: 8
+      team: michael
+      player: "Kyren Williams"
+      position: "RB"
+      keeper: true
+    - round: 8
+      team: cullen
+      player: "Bobby Okereke"
+      position: "LB"
+    - round: 8
+      team: nick
+      player: "Zamir White"
+      position: "RB"
+      keeper: true
+    - round: 9
+      team: nick
+      player: "Younghoe Koo"
+      position: "K"
+    - round: 9
+      team: cullen
+      player: "Brandon Aubrey"
+      position: "K"
+    - round: 9
+      team: michael
+      player: "Jalen Hurts"
+      position: "QB"
+      keeper: true
+    - round: 9
+      team: brian
+      player: "Aaron Rodgers"
+      position: "QB"
+      keeper: true
+    - round: 9
+      team: matt
+      player: "Tony Pollard"
+      position: "RB"
+      keeper: true
+    - round: 9
+      team: dillon
+      player: "Rico Dowdle"
+      position: "RB"
+    - round: 9
+      team: orion
+      player: "Caleb Williams"
+      position: "QB"
+    - round: 9
+      team: dan
+      player: "Joe Burrow"
+      position: "QB"
+      keeper: true
+    - round: 9
+      team: jeremy
+      player: "Dallas Goedert"
+      position: "TE"
+    - round: 9
+      team: jeff
+      player: "Marquise Brown"
+      position: "WR"
+    - round: 9
+      team: curtis
+      player: "Mike Williams"
+      position: "WR"
+    - round: 9
+      team: giese
+      player: "De'Von Achane"
+      position: "RB"
+      keeper: true
+    - round: 10
+      team: giese
+      player: "Ezekiel Elliott"
+      position: "RB"
+    - round: 10
+      team: curtis
+      player: "Trey Benson"
+      position: "RB"
+    - round: 10
+      team: jeff
+      player: "Nick Bosa"
+      position: "DE"
+    - round: 10
+      team: jeremy
+      player: "Maxx Crosby"
+      position: "DE"
+    - round: 10
+      team: dan
+      player: "Tua Tagovailoa"
+      position: "QB"
+    - round: 10
+      team: orion
+      player: "Jaylen Warren"
+      position: "RB"
+      keeper: true
+    - round: 10
+      team: dillon
+      player: "Curtis Samuel"
+      position: "WR"
+    - round: 10
+      team: matt
+      player: "Brian Thomas Jr."
+      position: "WR"
+    - round: 10
+      team: brian
+      player: "Keon Coleman"
+      position: "WR"
+    - round: 10
+      team: michael
+      player: "Adonai Mitchell"
+      position: "WR"
+    - round: 10
+      team: cullen
+      player: "T.J. Watt"
+      position: "DE"
+    - round: 10
+      team: nick
+      player: "Ladd McConkey"
+      position: "WR"
+    - round: 11
+      team: nick
+      player: "J.K. Dobbins"
+      position: "RB"
+    - round: 11
+      team: cullen
+      player: "Baltimore Ravens"
+      position: "DEF"
+    - round: 11
+      team: michael
+      player: "Micah Parsons"
+      position: "DE"
+    - round: 11
+      team: brian
+      player: "Gus Edwards"
+      position: "RB"
+      keeper: true
+    - round: 11
+      team: matt
+      player: "Trevor Lawrence"
+      position: "QB"
+    - round: 11
+      team: dillon
+      player: "Raheem Mostert"
+      position: "RB"
+      keeper: true
+    - round: 11
+      team: orion
+      player: "Jameson Williams"
+      position: "WR"
+    - round: 11
+      team: dan
+      player: "Justin Tucker"
+      position: "K"
+    - round: 11
+      team: jeremy
+      player: "Devin Singletary"
+      position: "RB"
+      keeper: true
+    - round: 11
+      team: jeff
+      player: "Ty Chandler"
+      position: "RB"
+    - round: 11
+      team: curtis
+      player: "Dallas Cowboys"
+      position: "DEF"
+    - round: 11
+      team: giese
+      player: "San Francisco 49ers"
+      position: "DEF"
+    - round: 12
+      team: giese
+      player: "Jason Sanders"
+      position: "K"
+    - round: 12
+      team: curtis
+      player: "Kirk Cousins"
+      position: "QB"
+    - round: 12
+      team: jeff
+      player: "Bobby Wagner"
+      position: "LB"
+    - round: 12
+      team: jeremy
+      player: "David Njoku"
+      position: "TE"
+      keeper: true
+    - round: 12
+      team: dan
+      player: "Pittsburgh Steelers"
+      position: "DEF"
+    - round: 12
+      team: orion
+      player: "Zach Charbonnet"
+      position: "RB"
+    - round: 12
+      team: dillon
+      player: "Tyler Allgeier"
+      position: "RB"
+    - round: 12
+      team: matt
+      player: "New York Jets"
+      position: "DEF"
+    - round: 12
+      team: brian
+      player: "Deshaun Watson"
+      position: "QB"
+    - round: 12
+      team: michael
+      player: "Antoine Winfield"
+      position: "S"
+    - round: 12
+      team: cullen
+      player: "Rachaad White"
+      position: "RB"
+      keeper: true
+    - round: 12
+      team: nick
+      player: "Bo Nix"
+      position: "QB"
+    - round: 13
+      team: nick
+      player: "Kansas City Chiefs"
+      position: "DEF"
+    - round: 13
+      team: cullen
+      player: "Jessie Bates"
+      position: "S"
+    - round: 13
+      team: michael
+      player: "Jordan Mason"
+      position: "RB"
+    - round: 13
+      team: brian
+      player: "Jakobi Meyers"
+      position: "WR"
+    - round: 13
+      team: matt
+      player: "Khalil Mack"
+      position: "DE"
+    - round: 13
+      team: dillon
+      player: "Foyesade Oluokun"
+      position: "LB"
+    - round: 13
+      team: orion
+      player: "Taysom Hill"
+      position: "QB"
+    - round: 13
+      team: dan
+      player: "Jerry Jeudy"
+      position: "WR"
+    - round: 13
+      team: jeremy
+      player: "Kyler Murray"
+      position: "QB"
+      keeper: true
+    - round: 13
+      team: jeff
+      player: "Harrison Butker"
+      position: "K"
+    - round: 13
+      team: curtis
+      player: "Jaylen Wright"
+      position: "RB"
+    - round: 13
+      team: giese
+      player: "Roquan Smith"
+      position: "LB"
+    - round: 14
+      team: giese
+      player: "Derwin James"
+      position: "S"
+    - round: 14
+      team: curtis
+      player: "Luke McCaffrey"
+      position: "WR"
+    - round: 14
+      team: jeff
+      player: "Josh Metellus"
+      position: "S"
+    - round: 14
+      team: jeremy
+      player: "Ka'imi Fairbairn"
+      position: "K"
+    - round: 14
+      team: dan
+      player: "Adam Thielen"
+      position: "WR"
+    - round: 14
+      team: orion
+      player: "Cincinnati Bengals"
+      position: "DEF"
+    - round: 14
+      team: dillon
+      player: "Cleveland Browns"
+      position: "DEF"
+    - round: 14
+      team: matt
+      player: "Chuba Hubbard"
+      position: "RB"
+    - round: 14
+      team: brian
+      player: "Houston Texans"
+      position: "DEF"
+    - round: 14
+      team: michael
+      player: "Zaire Franklin"
+      position: "LB"
+    - round: 14
+      team: cullen
+      player: "Jared Goff"
+      position: "QB"
+    - round: 14
+      team: nick
+      player: "Jordan Love"
+      position: "QB"
+      keeper: true
+    - round: 15
+      team: nick
+      player: "Justin Simmons"
+      position: "S"
+    - round: 15
+      team: cullen
+      player: "Bucky Irving"
+      position: "RB"
+    - round: 15
+      team: michael
+      player: "Josh Palmer"
+      position: "WR"
+    - round: 15
+      team: brian
+      player: "Jake Elliott"
+      position: "K"
+    - round: 15
+      team: matt
+      player: "Ernest Jones"
+      position: "LB"
+    - round: 15
+      team: dillon
+      player: "Justin Herbert"
+      position: "QB"
+    - round: 15
+      team: orion
+      player: "Jake Moody"
+      position: "K"
+    - round: 15
+      team: dan
+      player: "Lavonte David"
+      position: "LB"
+    - round: 15
+      team: jeremy
+      player: "Miami Dolphins"
+      position: "DEF"
+    - round: 15
+      team: jeff
+      player: "Nate Hobbs"
+      position: "CB"
+    - round: 15
+      team: curtis
+      player: "Danielle Hunter"
+      position: "DE"
+    - round: 15
+      team: giese
+      player: "Aidan Hutchinson"
+      position: "DE"
+    - round: 16
+      team: giese
+      player: "Matthew Stafford"
+      position: "QB"
+    - round: 16
+      team: curtis
+      player: "Chauncey Gardner-Johnson"
+      position: "S"
+    - round: 16
+      team: jeff
+      player: "Byron Young"
+      position: "DT"
+    - round: 16
+      team: jeremy
+      player: "C.J. Mosley"
+      position: "LB"
+    - round: 16
+      team: dan
+      player: "Khalil Herbert"
+      position: "RB"
+    - round: 16
+      team: orion
+      player: "Patrick Queen"
+      position: "LB"
+    - round: 16
+      team: dillon
+      player: "Myles Garrett"
+      position: "DE"
+    - round: 16
+      team: matt
+      player: "Evan McPherson"
+      position: "K"
+    - round: 16
+      team: brian
+      player: "Nick Bolton"
+      position: "LB"
+    - round: 16
+      team: michael
+      player: "Drake Maye"
+      position: "QB"
+    - round: 16
+      team: cullen
+      player: "Andrei Iosivas"
+      position: "WR"
+    - round: 16
+      team: nick
+      player: "Alex Singleton"
+      position: "LB"
+    - round: 17
+      team: nick
+      player: "DeForest Buckner"
+      position: "DT"
+    - round: 17
+      team: cullen
+      player: "Pat Freiermuth"
+      position: "TE"
+    - round: 17
+      team: michael
+      player: "Tyler Bass"
+      position: "K"
+    - round: 17
+      team: brian
+      player: "Budda Baker"
+      position: "S"
+    - round: 17
+      team: matt
+      player: "C.J. Stroud"
+      position: "QB"
+      keeper: true
+    - round: 17
+      team: dillon
+      player: "Cameron Dicker"
+      position: "K"
+    - round: 17
+      team: orion
+      player: "Minkah Fitzpatrick"
+      position: "S"
+    - round: 17
+      team: dan
+      player: "Xavier McKinney"
+      position: "S"
+    - round: 17
+      team: jeremy
+      player: "Kyle Hamilton"
+      position: "S"
+    - round: 17
+      team: jeff
+      player: "New Orleans Saints"
+      position: "DEF"
+    - round: 17
+      team: curtis
+      player: "Greg Zuerlein"
+      position: "K"
+    - round: 17
+      team: giese
+      player: "Tyler Lockett"
+      position: "WR"
+    - round: 18
+      team: giese
+      player: "Khalil Shakir"
+      position: "WR"
+    - round: 18
+      team: curtis
+      player: "Fred Warner"
+      position: "LB"
+    - round: 18
+      team: jeff
+      player: "Josh Downs"
+      position: "WR"
+    - round: 18
+      team: jeremy
+      player: "Antonio Gibson"
+      position: "RB"
+    - round: 18
+      team: dan
+      player: "Montez Sweat"
+      position: "DE"
+    - round: 18
+      team: orion
+      player: "Will Anderson"
+      position: "DE"
+    - round: 18
+      team: dillon
+      player: "Jaquan Brisker"
+      position: "S"
+    - round: 18
+      team: matt
+      player: "Brian Branch"
+      position: "S"
+    - round: 18
+      team: brian
+      player: "Brian Burns"
+      position: "DE"
+    - round: 18
+      team: michael
+      player: "New York Giants"
+      position: "DEF"
+    - round: 18
+      team: cullen
+      player: "Xavier Legette"
+      position: "WR"
+    - round: 18
+      team: nick
+      player: "Marvin Mims"
+      position: "WR"
