@@ -383,11 +383,12 @@ h1, h2, h3 { color: var(--text); }
 .pd-pos-DEF { background: #55606e; }
 .pd-pos-DST { background: #55606e; }
 .pd-pos-K { background: #7a6bab; }
-.pd-pos-DE { background: #2f6b6b; }
-.pd-pos-DT { background: #5c4a3d; }
-.pd-pos-LB { background: #6b6b2f; }
-.pd-pos-CB { background: #3d4a7a; }
+.pd-pos-DE { background: #4a3d7a; }
+.pd-pos-DT { background: #4a3d7a; }
+.pd-pos-LB { background: #4a3d7a; }
+.pd-pos-CB { background: #4a3d7a; }
 .pd-pos-S { background: #4a3d7a; }
+.pd-pos-IDP { background: #4a3d7a; }
 
 .pd-keeper { outline: 2px solid var(--accent); outline-offset: -2px; }
 .pd-keeper-badge {
