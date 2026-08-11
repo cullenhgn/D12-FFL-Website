@@ -342,6 +342,8 @@ h1, h2, h3 { color: var(--text); }
   overflow-x: auto;
   border: 1px solid var(--border);
   border-radius: 10px;
+  display: inline-block;
+  max-width: 100%;
 }
 .pd-board {
   border-collapse: collapse;
