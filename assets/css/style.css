@@ -207,6 +207,7 @@ h1, h2, h3 { color: var(--text); }
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: 18px 20px;
+  margin-bottom: 32px;
 }
 .fp-panel h2 { margin-top: 0; }
 .fp-panel label {
