@@ -413,3 +413,13 @@ h1, h2, h3 { color: var(--text); }
   align-items: center;
   gap: 5px;
 }
+
+.kp-pos-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 800;
+  padding: 2px 7px;
+  border-radius: 4px;
+  color: #fff;
+  vertical-align: middle;
+}
