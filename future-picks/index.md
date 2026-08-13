@@ -58,27 +58,6 @@ permalink: /future-picks/
   </table>
 </div>
 
-<section class="fp-panel">
-  <h2>Trade Log</h2>
-  {% if pick_trades.size == 0 %}
-    <p class="fp-sub">No trades filed yet. This board is clean — every team holds its own picks.</p>
-  {% else %}
-    {% assign sorted_trades = pick_trades | sort: "date" | reverse %}
-    <ul class="fp-log">
-      {% for t in sorted_trades %}
-        {% assign orig = teams | where: "id", t.original_team | first %}
-        {% assign dest = teams | where: "id", t.new_team | first %}
-        <li>
-          <span class="fp-log-date">{{ t.date | date: "%b %-d, %Y" }}</span>
-          Round {{ t.round }}: <strong>{{ orig.short_name | default: orig.owner }}</strong>'s pick →
-          <strong>{{ dest.short_name | default: dest.owner }}</strong>
-          {% if t.note %}<span class="fp-log-note">{{ t.note }}</span>{% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-</section>
-
 <section class="fp-panel fp-counts">
   <h2>Pick Counts</h2>
   <p class="fp-sub">Should equal {{ rounds }} per team. Off-count teams need a roster plan for the extra/missing slot.</p>
@@ -103,5 +82,26 @@ permalink: /future-picks/
       </div>
     {% endfor %}
   </div>
+</section>
+
+<section class="fp-panel">
+  <h2>Trade Log</h2>
+  {% if pick_trades.size == 0 %}
+    <p class="fp-sub">No trades filed yet. This board is clean — every team holds its own picks.</p>
+  {% else %}
+    {% assign sorted_trades = pick_trades | sort: "date" | reverse %}
+    <ul class="fp-log">
+      {% for t in sorted_trades %}
+        {% assign orig = teams | where: "id", t.original_team | first %}
+        {% assign dest = teams | where: "id", t.new_team | first %}
+        <li>
+          <span class="fp-log-date">{{ t.date | date: "%b %-d, %Y" }}</span>
+          Round {{ t.round }}: <strong>{{ orig.short_name | default: orig.owner }}</strong>'s pick →
+          <strong>{{ dest.short_name | default: dest.owner }}</strong>
+          {% if t.note %}<span class="fp-log-note">{{ t.note }}</span>{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 </section>
 
