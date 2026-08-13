@@ -13,17 +13,7 @@ permalink: /future-picks/
     <h1>2026 Draft Board</h1>
     <p class="fp-sub">Columns = original team. Cell = who picks there now.</p>
   </div>
-  <div class="fp-badges">
-    <span class="badge badge-strong">{{ site.draft_year }} Draft</span>
-    <span class="badge">{{ rounds }} Rounds</span>
-  </div>
 </div>
-
-{% if site.trade_house_rule %}
-<div class="fp-rule">
-  <strong>House rule:</strong> {{ site.trade_house_rule }}
-</div>
-{% endif %}
 
 <div class="fp-board-wrap">
   <table class="fp-board">
