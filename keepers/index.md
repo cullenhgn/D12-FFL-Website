@@ -58,9 +58,10 @@ permalink: /keepers/
         return p.rounds && p.rounds[y] && typeof p.rounds[y].round === 'number';
       });
 
-      var nameClass = keptAllThree ? 'kp-name-col kp-triple-name' : 'kp-name-col';
+      var nameClass = keptAllThree ? 'kp-name-col kp-triple' : 'kp-name-col';
+      var teamClass = keptAllThree ? 'kp-team-col kp-triple' : 'kp-team-col';
       html += '<tr><td class="' + nameClass + '">' + escapeHtml(p.player) + '</td>';
-      html += '<td class="kp-team-col">' + escapeHtml(p.team || '') + '</td>';
+      html += '<td class="' + teamClass + '">' + escapeHtml(p.team || '') + '</td>';
       displayYears.forEach(function (y) {
         var entry = p.rounds ? p.rounds[y] : null;
         var cellClass = keptAllThree ? 'kp-cell kp-triple' : 'kp-cell';
