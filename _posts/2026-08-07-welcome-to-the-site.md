@@ -2,9 +2,11 @@
 title: "Welcome to the League Site"
 ---
 
-This is the league's new home base — a place to track draft pick trades
-ESPN can't handle, look back at league history and records, and post
-updates throughout the season.
+This will be a place where we can:
+* Post news and updates.
+* Track future draft pick trades.
+* Reference the keeper logs & previous draft boards.
+* View individual season and overall league stats/records (work in progress).
 
-To publish a new update, add a file to `_posts/` named
-`YYYY-MM-DD-your-title.md` with a `title` in the front matter, like this one.
+Built with lots of yelling at Claude <3.
+-Cullen
