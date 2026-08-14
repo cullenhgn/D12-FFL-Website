@@ -446,7 +446,9 @@ h1, h2, h3 { color: var(--text); }
   padding: 8px 10px;
   text-align: center;
   border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
 }
+.kp-table th:last-child, .kp-table td:last-child { border-right: none; }
 .kp-table thead th {
   color: var(--muted);
   font-weight: 700;
