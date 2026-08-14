@@ -49,7 +49,7 @@ permalink: /keepers/
 
     html += '<section class="fp-panel kp-pos-table">';
     html += '<h2><span class="kp-pos-dot pd-pos-' + pos + '"></span>' + (positionNames[pos] || pos) + '</h2>';
-    html += '<table class="kp-table"><thead><tr><th class="kp-name-col">Player</th>';
+    html += '<table class="kp-table"><thead><tr><th class="kp-name-col">Player</th><th class="kp-team-col">Team</th>';
     displayYears.forEach(function (y) { html += '<th>' + y + '</th>'; });
     html += '</tr></thead><tbody>';
 
@@ -60,6 +60,7 @@ permalink: /keepers/
 
       var nameClass = keptAllThree ? 'kp-name-col kp-triple-name' : 'kp-name-col';
       html += '<tr><td class="' + nameClass + '">' + escapeHtml(p.player) + '</td>';
+      html += '<td class="kp-team-col">' + escapeHtml(p.team || '') + '</td>';
       displayYears.forEach(function (y) {
         var entry = p.rounds ? p.rounds[y] : null;
         var cellClass = keptAllThree ? 'kp-cell kp-triple' : 'kp-cell';
