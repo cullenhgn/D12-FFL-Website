@@ -1,5 +1,6 @@
 - player: "Amon-Ra St. Brown"
   position: "WR"
+  team: "Dillon"
   rounds:
     "2023":
       round: 5
@@ -9,43 +10,51 @@
       round: 3
 - player: "Baker Mayfield"
   position: "QB"
+  team: "Brian"
   rounds:
     "2025":
       round: 8
 - player: "Bo Nix"
   position: "QB"
+  team: "Nick"
   rounds:
     "2025":
       round: 11
 - player: "Brian Thomas Jr"
   position: "WR"
+  team: "Matt"
   rounds:
     "2025":
       round: 9
 - player: "Brock Bowers"
   position: "TE"
+  team: "Nick"
   rounds:
     "2025":
       round: 6
 - player: "Bucky Irving"
   position: "RB"
+  team: "Cullen"
   rounds:
     "2025":
       round: 14
-- player: "Chase Brown"
-  position: "RB"
-  rounds:
-    "2025":
-      round: 6
 - player: "C.J. Stroud"
   position: "QB"
+  team: "Matt"
   rounds:
     "2024":
       round: 17
     "2025":
       round: 16
+- player: "Chase Brown"
+  position: "RB"
+  team: "Matt"
+  rounds:
+    "2025":
+      round: 6
 - player: "David Njoku"
   position: "TE"
+  team: "Jeremy"
   rounds:
     "2024":
       round: 12
@@ -53,6 +62,7 @@
       round: 11
 - player: "Devon Achane"
   position: "RB"
+  team: "Giese"
   rounds:
     "2024":
       round: 9
@@ -60,11 +70,13 @@
       round: 8
 - player: "Drake Maye"
   position: "QB"
+  team: "Michael"
   rounds:
     "2025":
       round: 15
 - player: "Garrett Wilson"
   position: "WR"
+  team: "Brian"
   rounds:
     "2023":
       round: 8
@@ -74,26 +86,31 @@
       round: 6
 - player: "Jakobi Meyers"
   position: "WR"
+  team: "Curtis"
   rounds:
     "2025":
       round: 12
 - player: "Jameson Williams"
   position: "WR"
+  team: "Orion"
   rounds:
     "2025":
       round: 10
 - player: "Jayden Daniels"
   position: "QB"
+  team: "Dillon"
   rounds:
     "2025":
       round: 5
 - player: "Jordan Mason"
   position: "RB"
+  team: "Orion"
   rounds:
     "2025":
       round: 12
 - player: "Kyler Murray"
   position: "QB"
+  team: "Jeremy"
   rounds:
     "2024":
       round: 13
@@ -101,6 +118,7 @@
       round: 12
 - player: "Kyren Williams"
   position: "RB"
+  team: "Michael"
   rounds:
     "2024":
       round: 8
@@ -108,16 +126,19 @@
       round: 7
 - player: "Ladd McConky"
   position: "WR"
+  team: "Nick"
   rounds:
     "2025":
       round: 9
 - player: "Lamar Jackson"
   position: "QB"
+  team: "Curtis"
   rounds:
     "2025":
       round: 2
 - player: "Puka Nacua"
   position: "WR"
+  team: "Jeremy"
   rounds:
     "2024":
       round: 8
@@ -125,6 +146,7 @@
       round: 7
 - player: "Rashee Rice"
   position: "WR"
+  team: "Michael"
   rounds:
     "2024":
       round: 7
@@ -132,25 +154,29 @@
       round: 6
 - player: "Sam LaPorta"
   position: "TE"
+  team: "Matt"
   rounds:
     "2024":
       round: 8
     "2025":
       round: 7
-- player: "Tee Higgins"
-  position: "WR"
-  rounds:
-    "2025":
-      round: 3
 - player: "T.J. Hockenson"
   position: "TE"
+  team: "Curtis"
   rounds:
     "2023":
       round: 5
     "2025":
       round: 6
+- player: "Tee Higgins"
+  position: "WR"
+  team: "Dan"
+  rounds:
+    "2025":
+      round: 3
 - player: "Trey McBride"
   position: "TE"
+  team: "Giese"
   rounds:
     "2024":
       round: 8
@@ -158,6 +184,7 @@
       round: 7
 - player: "Zach Charbonnet"
   position: "RB"
+  team: "Jeremy"
   rounds:
     "2025":
       round: 10
