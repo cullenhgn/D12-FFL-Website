@@ -14,9 +14,9 @@ permalink: /keepers/
   <button class="pd-tab pd-tab-active" type="button">2025</button>
 </div>
 
-<div class="pd-legend">
-  <span class="pd-legend-item pd-keeper-legend">* = cost increased by keeping multiple players at the same round</span>
-  <span class="pd-legend-item kp-triple-legend">Kept all 3 years</span>
+<div class="kp-legend-stack">
+  <div><span class="pd-legend-item kp-triple-legend">Player kept for the 3 year maximum</span></div>
+  <div><span class="pd-legend-item pd-keeper-legend">* = cost increased by keeping multiple players at the same round</span></div>
 </div>
 
 <div id="kp-tables-wrap">

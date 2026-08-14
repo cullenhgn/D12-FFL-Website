@@ -320,6 +320,12 @@ h1, h2, h3 { color: var(--text); }
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
+.kp-legend-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
 .pd-legend-item {
   font-size: 0.75rem;
   font-weight: 800;
@@ -450,13 +456,13 @@ h1, h2, h3 { color: var(--text); }
 }
 .kp-table th:last-child, .kp-table td:last-child { border-right: none; }
 .kp-table thead th {
-  color: var(--muted);
-  font-weight: 700;
-  font-size: 0.75rem;
+  color: var(--text);
+  font-weight: 800;
+  font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
-.kp-name-col { text-align: left; color: var(--text); font-weight: 600; }
+.kp-name-col { text-align: left; color: var(--muted); }
 .kp-table thead .kp-name-col { text-transform: none; letter-spacing: normal; }
 .kp-team-col { text-align: left; color: var(--muted); }
 .kp-table thead .kp-team-col { text-transform: none; letter-spacing: normal; }
