@@ -7,11 +7,9 @@ permalink: /keepers/
 <div class="fp-header">
   <div>
     <h1>Keeper History</h1>
-    <p class="fp-sub">Every keeper, every year, and the draft round it cost.</p>
+    <p class="fp-sub">What round each player cost to keep, 2023–2025.</p>
   </div>
 </div>
-
-<div id="kp-tabs" class="pd-tabs"></div>
 
 <div class="pd-legend">
   <span class="pd-legend-item pd-pos-QB">QB</span>
@@ -19,39 +17,21 @@ permalink: /keepers/
   <span class="pd-legend-item pd-pos-WR">WR</span>
   <span class="pd-legend-item pd-pos-TE">TE</span>
   <span class="pd-legend-item pd-keeper-legend">* = cost increased by keeping multiple players at the same round</span>
+  <span class="pd-legend-item kp-triple-legend">Kept all 3 years</span>
 </div>
 
-<section id="kp-list-wrap" class="fp-panel">
-  <p class="fp-sub">No keeper data logged yet. Add a year to <code>_data/keepers.yml</code> to see it here.</p>
-</section>
+<div id="kp-tables-wrap">
+  <p class="fp-sub">No keeper data logged yet. Add players to <code>_data/keepers.yml</code> to see it here.</p>
+</div>
 
 <script>
 (function () {
-  var years = {{ site.data.keepers | jsonify }};
+  var players = {{ site.data.keepers | jsonify }};
+  var wrap = document.getElementById('kp-tables-wrap');
+  var displayYears = ['2023', '2024', '2025'];
+  var positionOrder = ['QB', 'RB', 'WR', 'TE'];
 
-  if (!years || years.length === 0) return;
-
-  years.sort(function (a, b) { return b.year - a.year; });
-
-  var tabsEl = document.getElementById('kp-tabs');
-  var listWrap = document.getElementById('kp-list-wrap');
-  var defaultYear = 2025;
-  var defaultIndex = 0;
-  years.forEach(function (y, i) {
-    if (y.year === defaultYear) defaultIndex = i;
-  });
-
-  years.forEach(function (yearData, i) {
-    var btn = document.createElement('button');
-    btn.textContent = yearData.year;
-    btn.className = 'pd-tab' + (i === defaultIndex ? ' pd-tab-active' : '');
-    btn.addEventListener('click', function () {
-      document.querySelectorAll('.pd-tab').forEach(function (b) { b.classList.remove('pd-tab-active'); });
-      btn.classList.add('pd-tab-active');
-      renderList(yearData);
-    });
-    tabsEl.appendChild(btn);
-  });
+  if (!players || players.length === 0) return;
 
   function escapeHtml(str) {
     return String(str).replace(/[&<>"']/g, function (c) {
@@ -59,27 +39,43 @@ permalink: /keepers/
     });
   }
 
-  function renderList(yearData) {
-    var keepers = (yearData.keepers || []).slice().sort(function (a, b) { return a.round - b.round; });
+  var html = '';
 
-    if (keepers.length === 0) {
-      listWrap.innerHTML = '<p class="fp-sub">No keepers logged for ' + yearData.year + '.</p>';
-      return;
-    }
+  positionOrder.forEach(function (pos) {
+    var group = players.filter(function (p) { return (p.position || '').toUpperCase() === pos; });
+    if (group.length === 0) return;
 
-    var html = '<h2>' + yearData.year + ' Keepers</h2><ul class="fp-log">';
-    keepers.forEach(function (k) {
-      var posClass = 'kp-pos-badge pd-pos-' + (k.position || '').toUpperCase();
-      html += '<li>';
-      html += '<span class="fp-log-date">Round ' + k.round + (k.extra_cost ? ' *' : '') + '</span>';
-      html += '<strong>' + escapeHtml(k.player) + '</strong> ';
-      html += '<span class="' + posClass + '">' + escapeHtml(k.position || '') + '</span>';
-      html += '</li>';
+    group.sort(function (a, b) { return a.player.localeCompare(b.player); });
+
+    html += '<section class="fp-panel kp-pos-table">';
+    html += '<h2><span class="kp-pos-dot pd-pos-' + pos + '"></span>' + pos + '</h2>';
+    html += '<table class="kp-table"><thead><tr><th class="kp-name-col">Player</th>';
+    displayYears.forEach(function (y) { html += '<th>' + y + '</th>'; });
+    html += '</tr></thead><tbody>';
+
+    group.forEach(function (p) {
+      var keptAllThree = displayYears.every(function (y) {
+        return p.rounds && p.rounds[y] && typeof p.rounds[y].round === 'number';
+      });
+
+      html += '<tr><td class="kp-name-col">' + escapeHtml(p.player) + '</td>';
+      displayYears.forEach(function (y) {
+        var entry = p.rounds ? p.rounds[y] : null;
+        var cellClass = keptAllThree ? 'kp-cell kp-triple' : 'kp-cell';
+        if (entry && typeof entry.round === 'number') {
+          html += '<td class="' + cellClass + '">' + entry.round + (entry.extra_cost ? ' *' : '') + '</td>';
+        } else if (entry && entry.ineligible) {
+          html += '<td class="' + cellClass + '">—</td>';
+        } else {
+          html += '<td class="' + cellClass + '"></td>';
+        }
+      });
+      html += '</tr>';
     });
-    html += '</ul>';
-    listWrap.innerHTML = html;
-  }
 
-  renderList(years[defaultIndex]);
+    html += '</tbody></table></section>';
+  });
+
+  wrap.innerHTML = html;
 })();
 </script>
