@@ -464,6 +464,7 @@ h1, h2, h3 { color: var(--text); }
   color: #ff9b9b;
   font-weight: 700;
 }
+.kp-triple-name { color: #ff9b9b; }
 .kp-triple-legend {
   background: rgba(201, 69, 69, 0.18);
   color: #ff9b9b;

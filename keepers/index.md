@@ -1,14 +1,17 @@
 ---
 layout: default
-title: Keeper History
+title: Keeper Logs
 permalink: /keepers/
 ---
 
 <div class="fp-header">
   <div>
-    <h1>Keeper History</h1>
-    <p class="fp-sub">What round each player cost to keep, 2023–2025.</p>
+    <h1>Keeper Logs</h1>
   </div>
+</div>
+
+<div class="pd-tabs">
+  <button class="pd-tab pd-tab-active" type="button">2025</button>
 </div>
 
 <div class="pd-legend">
@@ -55,7 +58,8 @@ permalink: /keepers/
         return p.rounds && p.rounds[y] && typeof p.rounds[y].round === 'number';
       });
 
-      html += '<tr><td class="kp-name-col">' + escapeHtml(p.player) + '</td>';
+      var nameClass = keptAllThree ? 'kp-name-col kp-triple-name' : 'kp-name-col';
+      html += '<tr><td class="' + nameClass + '">' + escapeHtml(p.player) + '</td>';
       displayYears.forEach(function (y) {
         var entry = p.rounds ? p.rounds[y] : null;
         var cellClass = keptAllThree ? 'kp-cell kp-triple' : 'kp-cell';
