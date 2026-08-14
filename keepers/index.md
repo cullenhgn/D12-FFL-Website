@@ -12,10 +12,6 @@ permalink: /keepers/
 </div>
 
 <div class="pd-legend">
-  <span class="pd-legend-item pd-pos-QB">QB</span>
-  <span class="pd-legend-item pd-pos-RB">RB</span>
-  <span class="pd-legend-item pd-pos-WR">WR</span>
-  <span class="pd-legend-item pd-pos-TE">TE</span>
   <span class="pd-legend-item pd-keeper-legend">* = cost increased by keeping multiple players at the same round</span>
   <span class="pd-legend-item kp-triple-legend">Kept all 3 years</span>
 </div>
@@ -28,8 +24,9 @@ permalink: /keepers/
 (function () {
   var players = {{ site.data.keepers | jsonify }};
   var wrap = document.getElementById('kp-tables-wrap');
-  var displayYears = ['2023', '2024', '2025'];
+  var displayYears = ['2025', '2024', '2023'];
   var positionOrder = ['QB', 'RB', 'WR', 'TE'];
+  var positionNames = { QB: 'Quarterbacks', RB: 'Running Backs', WR: 'Wide Receivers', TE: 'Tight Ends' };
 
   if (!players || players.length === 0) return;
 
@@ -48,7 +45,7 @@ permalink: /keepers/
     group.sort(function (a, b) { return a.player.localeCompare(b.player); });
 
     html += '<section class="fp-panel kp-pos-table">';
-    html += '<h2><span class="kp-pos-dot pd-pos-' + pos + '"></span>' + pos + '</h2>';
+    html += '<h2><span class="kp-pos-dot pd-pos-' + pos + '"></span>' + (positionNames[pos] || pos) + '</h2>';
     html += '<table class="kp-table"><thead><tr><th class="kp-name-col">Player</th>';
     displayYears.forEach(function (y) { html += '<th>' + y + '</th>'; });
     html += '</tr></thead><tbody>';
