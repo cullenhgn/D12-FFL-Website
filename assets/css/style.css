@@ -54,7 +54,7 @@ main { padding: 40px 0 60px; min-height: 60vh; }
 h1, h2, h3 { color: var(--text); }
 
 .post-list { list-style: none; padding: 0; }
-.post-list li {
+.post-list > li {
   padding: 16px 0;
   border-bottom: 1px solid var(--border);
 }
