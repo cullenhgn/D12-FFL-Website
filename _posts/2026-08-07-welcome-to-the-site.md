@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the League Site"
+title: "Welcome!"
 ---
 
 This will be a place where we can:
