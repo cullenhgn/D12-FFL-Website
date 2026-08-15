@@ -8,5 +8,5 @@ This will be a place where we can:
 * Reference the keeper logs & previous draft boards.
 * View individual season and overall league stats/records (work in progress).
 
-Built with lots of yelling at Claude <3.
+Built with lots of yelling at Claude <3.  
 -Cullen
