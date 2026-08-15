@@ -3,7 +3,7 @@ layout: default
 title: News
 ---
 
-# League News
+# News
 
 {% if site.posts.size == 0 %}
 <p>No news yet — add a file to <code>_posts/</code> to publish your first update.</p>
