@@ -59,6 +59,10 @@ h1, h2, h3 { color: var(--text); }
   border-bottom: 1px solid var(--border);
 }
 .post-date { color: var(--muted); font-size: 0.9rem; margin-right: 10px; }
+.post-list-title { margin: 6px 0 10px; font-size: 1.2rem; }
+.post-list-content { color: var(--text); }
+.post-list-content p:first-child { margin-top: 0; }
+.post-list-content p:last-child { margin-bottom: 0; }
 
 .trade-card {
   background: var(--panel);
