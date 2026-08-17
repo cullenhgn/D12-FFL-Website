@@ -26,8 +26,16 @@
 #   date: 2026-08-10
 #   note: "Part of a package for a WR"
 
-- round: 5
-  original_team: team-e
+- round: 14
+  original_team: team-b
+  new_team: team-h
+  date: 2026-08-16
+  note: "Curtis gives a 14th pick & Jakobi Meyers for an 18th pick & Kyle Pitts from Dillon."
+
+  - round: 18
+  original_team: team-h
   new_team: team-b
-  date: 2026-08-12
-  note: "Testing Testing"
+  date: 2026-08-16
+  note: "Curtis gives a 14th pick & Jakobi Meyers for an 18th pick & Kyle Pitts from Dillon."
+
+  
