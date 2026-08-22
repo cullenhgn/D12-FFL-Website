@@ -31,11 +31,19 @@
   new_team: team-h
   date: 2026-08-16
   note: "Curtis gives a 14th pick & Jakobi Meyers for an 18th pick & Kyle Pitts from Dillon."
-
 - round: 18
   original_team: team-h
   new_team: team-b
   date: 2026-08-16
   note: "Curtis gives a 14th pick & Jakobi Meyers for an 18th pick & Kyle Pitts from Dillon."
-
+- round: 7
+  original_team: team-g
+  new_team: team-h
+  date: 2026-08-20
+  note: "Jeff also gets Tucker Kraft"
+- round: 16
+  original_team: team-h
+  new_team: team-g
+  date: 2026-08-20
+  note: "Jeff also gets Tucker Kraft"
   
