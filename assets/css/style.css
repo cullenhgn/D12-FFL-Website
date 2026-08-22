@@ -482,3 +482,60 @@ h1, h2, h3 { color: var(--text); }
   color: #ff9b9b;
   font-weight: 700;
 }
+
+/* File a Trade — multi-pick trade builder */
+.ft-teams-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+.ft-side {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+.ft-side h3 { margin: 0 0 10px; font-size: 0.95rem; color: var(--text); }
+.ft-pick-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.ft-pick-row select {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  padding: 8px 10px;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+.ft-round-select { flex: 0 0 110px; }
+.ft-orig-select { flex: 1; }
+.ft-remove-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--muted);
+  width: 32px;
+  height: 34px;
+  cursor: pointer;
+  flex: 0 0 32px;
+}
+.ft-remove-btn:hover { color: #ff9b9b; border-color: #ff9b9b; }
+.ft-add-btn {
+  background: transparent;
+  border: 1px dashed var(--border);
+  border-radius: 6px;
+  color: var(--muted);
+  padding: 8px 14px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.ft-add-btn:hover { color: var(--accent); border-color: var(--accent); }
+
+@media (max-width: 600px) {
+  .ft-teams-row { grid-template-columns: 1fr; }
+}
