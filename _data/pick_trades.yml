@@ -44,6 +44,46 @@
 - round: 16
   original_team: team-h
   new_team: team-g
+- round: 2
+  original_team: team-b
+  new_team: team-e
+  date: 2026-08-21
+  note: "Orion also gets Jordan Mason"
+- round: 3
+  original_team: team-b
+  new_team: team-e
+  date: 2026-08-21
+  note: "Orion also gets Jordan Mason"
+- round: 6
+  original_team: team-b
+  new_team: team-e
+  date: 2026-08-21
+  note: "Orion also gets Jordan Mason"
+- round: 7
+  original_team: team-b
+  new_team: team-e
+  date: 2026-08-21
+  note: "Orion also gets Jordan Mason"
+- round: 2
+  original_team: team-e
+  new_team: team-b
+  date: 2026-08-21
+  note: "Orion also gets Jordan Mason"
+- round: 3
+  original_team: team-e
+  new_team: team-b
+  date: 2026-08-21
+  note: "Orion also gets Jordan Mason"
+- round: 6
+  original_team: team-e
+  new_team: team-b
+  date: 2026-08-21
+  note: "Orion also gets Jordan Mason"
+- round: 7
+  original_team: team-e
+  new_team: team-b
+  date: 2026-08-21
+  note: "Orion also gets Jordan Mason"
   date: 2026-08-20
   note: "Jeff also gets Tucker Kraft"
   
