@@ -86,4 +86,34 @@
   note: "Orion also gets Jordan Mason"
   date: 2026-08-20
   note: "Jeff also gets Tucker Kraft"
+- round: 4
+  original_team: team-a
+  new_team: team-f
+  date: 2026-08-21
+  note: "Keeper round swaps"
+- round: 5
+  original_team: team-a
+  new_team: team-f
+  date: 2026-08-21
+  note: "Keeper round swaps"
+- round: 15
+  original_team: team-a
+  new_team: team-f
+  date: 2026-08-21
+  note: "Keeper round swaps"
+- round: 4
+  original_team: team-f
+  new_team: team-a
+  date: 2026-08-21
+  note: "Keeper round swaps"
+- round: 5
+  original_team: team-f
+  new_team: team-a
+  date: 2026-08-21
+  note: "Keeper round swaps"
+- round: 15
+  original_team: team-f
+  new_team: team-a
+  date: 2026-08-21
+  note: "Keeper round swaps"
   
